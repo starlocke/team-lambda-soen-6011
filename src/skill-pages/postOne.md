@@ -64,7 +64,7 @@ It is presumed that the distinctions between keywords, reserved words and identi
 
 A list of Ruby's keywords are defined at [defs/keywords](https://github.com/ruby/ruby/blob/master/defs/keywords).
 
-## Grammars, Rules and the Significance of _`parser.y`_
+## Grammars and Rules
 
 The [`parser.y`](https://github.com/ruby/ruby/blob/master/parse.y) file is a grammar rule file which contains the rules for the Ruby parser engine. This file is massive (13,315 LOC) and if you're familiar with C programming, you'd know it ought to have pointers and `structs` flying around all over. Considering our interest in tokenization specifically, the `parser_yylex` function should be within our purview (starts at line 8,888 _as of 17th May 2020_).
 
