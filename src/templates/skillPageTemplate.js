@@ -1,27 +1,39 @@
 import React from 'react'
 import { graphql } from "gatsby"
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types'
+import { Layout } from '../components/contentLayout'
+import { Footer } from '../components/footer'
+import SEO from '../components/seo'
+import { HomePageLink } from '../components/homePageLink'
+import { Layout as IndexLayout }  from '../components/layout'
 
-const skillPageTemplate = ({
+const SkillPageTemplate = ({
   data,
 }) => {
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
   return (
-    <div className="blog-post-container">
-      <div className="blog-post">
-        <h1>{frontmatter.title}</h1>
-        <h2>{frontmatter.date}</h2>
-        <div
-          className="blog-post-content"
-          dangerouslySetInnerHTML={{ __html: html }}
+    <>
+      <IndexLayout>
+        <SEO
+          title={frontmatter.title}
+          keywords={frontmatter.keywords}
         />
-      </div>
-    </div>
+      </IndexLayout>
+        <Layout>
+        <h1>{frontmatter.title}</h1>
+        <h2>Authored by: {frontmatter.author}</h2>
+          <div
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
+        </Layout> 
+        <HomePageLink />
+        <Footer />
+    </>
   )
 }
 
-skillPageTemplate.propTypes = {
+SkillPageTemplate.propTypes = {
   data: PropTypes.object.isRequired
 }
 
@@ -31,11 +43,12 @@ query($slug: String!) {
     html
     frontmatter {
       title
+      keywords
       slug
-      date(formatString: "MMMM DD, YYYY")
+      author
     }
   }
 }
 `;
 
-export default skillPageTemplate;
+export default SkillPageTemplate;

@@ -1,54 +1,68 @@
 import React from "react"
 import { Link } from "gatsby"
+import { graphql } from "gatsby"
+import PropTypes from 'prop-types'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const IndexPage = (
+  {
+    data: { allMarkdownRemark: { edges } }
+  }) => (
   <Layout>
     <SEO
       title="Home"
       keywords={[`gatsby`, `application`, `react`, `accessibility`]}
     />
-    <h1>Welcome!</h1>
-    <p>This starter has the following accessibility features enabled:</p>
-    <ul>
-      <li>
-        <span role="img" aria-label="magnifying glass">
-          🔍
-        </span>
-        <a href="https://github.com/evcohen/eslint-plugin-jsx-a11y">
-          eslint-plugin-jsx-a11y
-        </a>{" "}
-        to catch potential accessibility issues while authoring code.
-      </li>
-      <li>
-        <span role="img" aria-label="checkbox">
-          ✅
-        </span>
-        <a href="https://github.com/okonet/lint-staged">lint-staged</a>{" "}
-        configuration so that any linting error, including accessibility issues,
-        are caught in a pre-commit hook.
-      </li>
-      <li>
-        <span role="img" aria-label="megaphone">
-          📣
-        </span>
-        <a href="https://github.com/angeloashmore/gatsby-plugin-react-axe">
-          gatsby-plugin-react-axe
-        </a>{" "}
-        for in-console reporting of accessibility errors in the DOM.
-      </li>
-      <li>
-        <span role="img" aria-label="book">
-          📖
-        </span>
-        A <a href="/storybook">Storybook</a> with accessibility testing and
-        color blindness simulation tools built in.
-      </li>
-    </ul>
-    <Link to="/page-2/">Go to page 2</Link>
+    <h1>Skill Description Page Index</h1>
+    <div>
+      {
+        edges.map(
+          (edge) => {
+            return(
+              <div key={edge.node.id}>
+                <Link
+                style = {{'fontSize': '1.3em' }}
+                to={`${edge.node.frontmatter.slug}`}>
+                  {edge.node.frontmatter.title}
+                </Link>
+                <div>
+                  <em>
+                    by {edge.node.frontmatter.author}
+                  </em>
+                </div>
+                <div>
+                  {edge.node.excerpt}
+                </div>
+              </div>
+            )
+        })
+      }
+    </div>
   </Layout>
 )
+
+IndexPage.propTypes = {
+  data: PropTypes.object.isRequired
+}
+
+export const pageQuery = graphql`
+  query {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___title] }) {
+      edges {
+        node {
+          id
+          excerpt(pruneLength: 250)
+          frontmatter {
+            slug
+            title
+            author
+          }
+        }
+      }
+    }
+  }
+`
 
 export default IndexPage

@@ -86,6 +86,7 @@ SEO.defaultProps = {
   meta: [],
   keywords: [],
   description: ``,
+  title: `SESTOPIA`
 }
 
 SEO.propTypes = {
