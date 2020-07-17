@@ -8,6 +8,8 @@
     "gatsby": "^2.3.16",
     "gatsby-plugin-react-axe": "^0.2.2",
     "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-source-filesystem": "^2.3.19",
+    "gatsby-transformer-remark": "^2.8.25",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -59,7 +61,7 @@
   "license": "MIT",
   "scripts": {
     "build": "npm run build-storybook && gatsby build",
-    "develop": "gatsby develop -H 0.0.0.0",
+    "develop": "gatsby develop -H 0.0.0.0 -p 8001",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
