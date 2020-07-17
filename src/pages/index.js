@@ -4,7 +4,9 @@ import { graphql } from "gatsby"
 import PropTypes from 'prop-types'
 
 import Layout from "../components/layout"
+import SearchBar from "../components/searchBar"
 import SEO from "../components/seo"
+import { Footer } from "../components/footer"
 
 const IndexPage = (
   {
@@ -16,14 +18,15 @@ const IndexPage = (
       keywords={[`gatsby`, `application`, `react`, `accessibility`]}
     />
     <h1>Skill Description Page Index</h1>
+    <SearchBar />
     <div>
       {
         edges.map(
           (edge) => {
             return(
-              <div key={edge.node.id}>
+              <div style = {{'margin': '2.5em 0'}} key={edge.node.id}>
                 <Link
-                style = {{'fontSize': '1.3em' }}
+                style = {{'fontSize': '1.2em' }}
                 to={`${edge.node.frontmatter.slug}`}>
                   {edge.node.frontmatter.title}
                 </Link>
@@ -40,6 +43,7 @@ const IndexPage = (
         })
       }
     </div>
+    <Footer />
   </Layout>
 )
 

@@ -5,7 +5,8 @@ import { BREAKPOINT } from '../utils/constants';
 const Container = styled.footer`
   font-size: 17px;
   margin-top: 20vh;
-  padding-bottom: 10vh;
+  position: relative;
+  bottom: 10vh;
   padding-top: 5vh;
   text-align: center;
 
