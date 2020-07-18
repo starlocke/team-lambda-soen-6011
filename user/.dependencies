@@ -1,4 +1,8 @@
 git:
+    admin:
+        url: https://github.com/getgrav/grav-plugin-admin
+        path: user/plugins/admin
+        branch: master
     error:
         url: https://github.com/getgrav/grav-plugin-error
         path: user/plugins/error
@@ -28,6 +32,10 @@ git:
         path: user/themes/knowledge-base
         branch: master
 links:
+    error:
+        src: grav-plugin-admin
+        path: user/plugins/admin
+        scm: github
     error:
         src: grav-plugin-error
         path: user/plugins/error
