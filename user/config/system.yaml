@@ -32,7 +32,7 @@ assets:
   js_minify: true
 
 errors:
-  display: false
+  display: true
   log: true
 
 debugger:
