@@ -32,7 +32,7 @@ git:
         path: user/themes/knowledge-base
         branch: master
 links:
-    error:
+    admin:
         src: grav-plugin-admin
         path: user/plugins/admin
         scm: github
