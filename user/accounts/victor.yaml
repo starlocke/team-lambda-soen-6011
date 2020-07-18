@@ -1,0 +1,8 @@
+password: 'Ua5NhSp8DwQnDjqg'
+email: 'starlocke@gmail.com'
+fullname: 'Victor Yap'
+title: 'Site Administrator'
+access:
+  admin:
+    login: true
+    super: true

@@ -68,6 +68,7 @@
         "compile": [
           "bin/gpm self-upgrade -y",
           "bin/grav install",
+          "bin/gpm install admin -y",
           "bin/gpm install quark -y"
         ],
         "post-create-project-cmd": "bin/grav install",
