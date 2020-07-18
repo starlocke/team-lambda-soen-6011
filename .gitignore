@@ -1,2 +1,4 @@
 vendor/
 .env
+user/plugins
+user/themes
