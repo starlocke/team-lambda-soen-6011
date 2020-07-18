@@ -50,6 +50,7 @@ module.exports = {
           {
             name: 'content',
             indexed: true,
+            limit: 5,
             resolver: 'rawMarkdownBody',
             attributes: {
               encode: 'balance',

@@ -18,13 +18,8 @@ class Search extends Component {
             </Link>
           </div>
         ))
-      } else if (this.state.query.length > 2) {
+      } else if (this.state.query.length > 0) {
         return 'No results for ' + this.state.query
-      } else if (
-        this.state.results.length === 0 &&
-        this.state.query.length > 0
-      ) {
-        return 'Please insert at least 3 characters'
       } else {
         return ''
       }
@@ -70,7 +65,7 @@ class Search extends Component {
 
   search = event => {
     const query = event.target.value
-    if (this.state.query.length > 2) {
+    if (this.state.query.length > 0) {
       const results = this.getSearchResults(query)
       this.setState({ results: results, query: query })
     } else {
