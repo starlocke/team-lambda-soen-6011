@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 import { graphql } from "gatsby"
 import PropTypes from 'prop-types'
 
-import Layout from "../components/layout"
-import SearchBar from "../components/searchBar"
+import Layout from "../components/layout/layout"
+import SearchBar from "../components/searchBar/searchBar"
 import SEO from "../components/seo"
 import { Footer } from "../components/footer"
 

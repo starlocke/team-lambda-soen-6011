@@ -31,6 +31,7 @@ class Search extends Component {
         <input
           className="search__input"
           id="searchInput" 
+          value={this.state.query}
           type="text"
           onChange={this.search}
           placeholder={'Search'}
@@ -65,7 +66,7 @@ class Search extends Component {
 
   search = event => {
     const query = event.target.value
-    if (this.state.query.length > 0) {
+    if (query.length > 0) {
       const results = this.getSearchResults(query)
       this.setState({ results: results, query: query })
     } else {

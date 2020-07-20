@@ -21,7 +21,7 @@ window.___navigate = pathname => {
   action("NavigateTo:")(pathname)
 }
 
-import "../src/components/layout.css"
+import "../src/components/layout/layout.css"
 
 // Enable the accessibility panel.
 addDecorator(withA11y)

@@ -5,7 +5,7 @@ import { Layout } from '../components/contentLayout'
 import { Footer } from '../components/footer'
 import SEO from '../components/seo'
 import { HomePageLink } from '../components/homePageLink'
-import { Layout as IndexLayout }  from '../components/layout'
+import { Layout as IndexLayout }  from '../components/layout/layout'
 
 const SkillPageTemplate = ({
   data,
