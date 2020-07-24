@@ -2,11 +2,33 @@ import React, { Component } from 'react'
 import { Link } from 'gatsby'
 import './searchBar.css'
 
+const initialState = {
+  query: '',
+  results: [],
+}
+
 class Search extends Component {
-  state = {
-    query: '',
-    results: [],
+  state = initialState
+
+  reset() {
+    this.setState(initialState);
   }
+
+  componentDidMount() {
+    document.addEventListener("mousedown", this.handleClickOutside);
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener("mousedown", this.handleClickOutside);
+  }
+
+  node = React.createRef();
+
+  handleClickOutside = e => {
+    if (!this.node.current.contains(e.target)) {
+      this.reset();
+    }
+  };
 
   render() {
     const ResultList = () => {
@@ -36,7 +58,7 @@ class Search extends Component {
           onChange={this.search}
           placeholder={'Search'}
         />
-        <div className={this.state.results.length == 0 ? '' : 'search__list'}>
+        <div ref={this.node} className={this.state.results.length == 0 ? '' : 'search__list'}>
           <ResultList />
         </div>
       </div>

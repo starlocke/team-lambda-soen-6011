@@ -17,7 +17,6 @@ const SkillPageTemplate = ({
       <IndexLayout>
         <SEO
           title={frontmatter.title}
-          keywords={frontmatter.keywords}
         />
       </IndexLayout>
         <Layout>
@@ -43,7 +42,6 @@ query($slug: String!) {
     html
     frontmatter {
       title
-      keywords
       slug
       author
     }
