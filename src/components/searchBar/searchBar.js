@@ -48,11 +48,12 @@ class Search extends Component {
     }
 
     return (
-      <div className={this.props.classNames}>
-        <label htmlFor="searchInput">Search Skill Pages:</label>
+      <div className="search__container">
+        <label htmlFor="searchInput">Search All Skill Pages</label>
         <input
           className="search__input"
           id="searchInput" 
+          autoComplete = "off"
           value={this.state.query}
           type="text"
           onChange={this.search}
