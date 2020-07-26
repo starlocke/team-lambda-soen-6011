@@ -4,7 +4,7 @@
   "description": "A simple starter to get up and developing accessible websites with Gatsby",
   "version": "0.1.0",
   "author": "Ben Robertson <hi@benrobertson.io>",
-  "engine": {
+  "engines": {
     "yarn": "1.21.1"
   },
   "dependencies": {
