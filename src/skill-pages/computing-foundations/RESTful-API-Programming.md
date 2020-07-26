@@ -2,7 +2,7 @@
 slug: "/skills/restful-api-programming"
 title: 'RESTful API Programming'
 author: 'Warren White'
-categories: ['Computing Foundations']
+categories: ['computing-foundations']
 date: '2020-07-26'
 ---
 
