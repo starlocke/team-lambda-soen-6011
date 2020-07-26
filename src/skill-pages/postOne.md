@@ -3,7 +3,7 @@ slug: "/skills/post-one"
 title: 'Notes on "Ruby Under A Microscope" and more: Intro. & Tokenization'
 author: 'John Appleseed'
 keywords: ['ones', 'two']
-categories: ['foo', 'bar']
+categories: ['foo', 'bar', "tomSawyer"]
 date: '2020-01-02'
 ---
 

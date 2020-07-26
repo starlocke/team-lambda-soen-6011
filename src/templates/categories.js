@@ -2,6 +2,9 @@ import React from "react"
 import PropTypes from "prop-types"
 // Components
 import { Link, graphql } from "gatsby"
+import Layout from "../components/layout/layout"
+import Footer from "../components/footer"
+
 const Categories = ({ pageContext, data }) => {
   const { category } = pageContext
   const { edges, totalCount } = data.allMarkdownRemark
@@ -9,12 +12,11 @@ const Categories = ({ pageContext, data }) => {
     totalCount === 1 ? "" : "s"
   } tagged with "${category}"`
   return (
-    <div>
+    <Layout>
       <h1>{categoryHeader}</h1>
       <ul>
         {edges.map(({ node }) => {
-          const { slug } = node.fields
-          const { title } = node.frontmatter
+          const { title, slug } = node.frontmatter
           return (
             <li key={slug}>
               <Link to={slug}>{title}</Link>
@@ -27,7 +29,8 @@ const Categories = ({ pageContext, data }) => {
               You'll come back to it!
             */}
       <Link to="/categories">All categories</Link>
-    </div>
+      <Footer></Footer>
+    </Layout>
   )
 }
 Categories.propTypes = {
@@ -63,11 +66,9 @@ export const pageQuery = graphql`
       totalCount
       edges {
         node {
-          fields {
-            slug
-          }
           frontmatter {
             title
+            slug
           }
         }
       }

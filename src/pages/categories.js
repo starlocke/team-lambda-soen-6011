@@ -5,6 +5,9 @@ import kebabCase from "lodash/kebabCase"
 // Components
 import { Helmet } from "react-helmet"
 import { Link, graphql } from "gatsby"
+import Layout from "../components/layout/layout"
+import Footer from "../components/footer"
+
 const CategoriesPage = ({
   data: {
     allMarkdownRemark: { group },
@@ -13,7 +16,7 @@ const CategoriesPage = ({
     },
   },
 }) => (
-  <div>
+  <Layout>
     <Helmet title={title} />
     <div>
       <h1>Categories</h1>
@@ -27,7 +30,8 @@ const CategoriesPage = ({
         ))}
       </ul>
     </div>
-  </div>
+    <Footer></Footer>
+  </Layout>
 )
 CategoriesPage.propTypes = {
   data: PropTypes.shape({
