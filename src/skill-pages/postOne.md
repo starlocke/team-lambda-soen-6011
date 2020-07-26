@@ -2,6 +2,8 @@
 slug: "/skills/post-one"
 title: 'Notes on "Ruby Under A Microscope" and more: Intro. & Tokenization'
 author: 'John Appleseed'
+categories: ['foo', 'bar', "tomSawyer"]
+date: '2020-01-02'
 ---
 
 I've spent a good part of the past two years working on JavaScript-heavy codebases on the client-side of commercial applications and hobbyist projects but about eight months ago, I had made a rather smooth transition to server-side engineering. I currently work nearly entirely with the Ruby on Rails web framework (occasionally with Sinatra) which pushed me into learning its technicalities at greater depth. However, what I had observed was that my learning was more in the style of "first Rails, then Ruby". Interestingly, I had realized that I wasn't the only one. The [ruby-lang.org/about](https://www.ruby-lang.org/en/about/) page itself says, _"Much of the growth is attributed to the popularity of software written in Ruby, particularly the Ruby on Rails web framework."_
