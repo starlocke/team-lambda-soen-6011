@@ -3,14 +3,14 @@ import PropTypes from "prop-types"
 // Utilities
 import kebabCase from "lodash/kebabCase"
 // Components
-import { Link, graphql } from "gatsby"
+import { Link } from "gatsby"
 // Styles
 import './categories.css'
 
 const CategoriesContainer = ({
     group: { group }
 }) => (
-    <>
+  <>
     <div>
       <h2>Categories</h2>
       <ul className='category__wrapper'>
@@ -23,19 +23,18 @@ const CategoriesContainer = ({
         ))}
       </ul>
     </div>
-    </>
+  </>
 )
 
 CategoriesContainer.propTypes = {
-  data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
-      group: PropTypes.arrayOf(
-        PropTypes.shape({
-          fieldValue: PropTypes.string.isRequired,
-          totalCount: PropTypes.number.isRequired,
-        }).isRequired
-      ),
-    }),
-  }),
+  group: PropTypes.shape({
+    group: PropTypes.arrayOf(
+      PropTypes.shape({
+        fieldValue: PropTypes.string.isRequired,
+        totalCount: PropTypes.number.isRequired,
+      }).isRequired
+    ),
+  })
 }
+
 export default CategoriesContainer
