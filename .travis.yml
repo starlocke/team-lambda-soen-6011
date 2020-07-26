@@ -1,12 +1,13 @@
 language: node_js
 node_js:
 - stable
-- '6'
-- '4'
+- '14'
+- '12'
+- '10'
 deploy:
   provider: heroku
   api_key:
     secure: "R/0tv4T61dc0e8aloFmcYBfF/tgEGphogieMNJPjMnVfQVQzi53EE1k0Qe2B31VJbSVom1wDExX7gFCVwwieNk6YJh0JhXmF8EBX1L/3IEa1paPr+xkptRnCxbqhL4guqWtIhvwlu4tADAIChiHf1dMGg2arBHy9LxCtAuLw3CA6ftl6HITwl/S/qgVHYcRgL5v3i2gd6cm2EyYVFcXBVQk9G+LJGhQfIx+uibgQBDnrwaenCO45yU5otAV+yyPctPg2cJjlVminSgWmB8IXS7kYN7I3LeE41pvpg2M7ruimgT+vaWPG0msAI4hth786XahB2opER9JJrnsI69BB6/FQSkgafg9uc9HoRb0fkW1WjHdWuUFRf7Cb1gyKIEhmjQpYmWn/6P7T4mggq+RZY/4QaNdnyDKHmTYC/4h53cRKZoUaxOp4HVKvO18MReGy1JlJ+prUVLDhm03cpckYLpw+CL/zQ87dzWsnPMLz4hQ3g4G2dcF9hyoWuO0vRQmM85jFSqckl0Ko0Pef+g76agDMGM26EVBLn1GEASIIsmm8kxc96sLUfmT2uigvi7PQCmeAmSeG0laLYZP1dKr9ePRllFBCw+ucB/J79S6iwJkrabwrcKJ7xkXCmTm9SAoQQJWVLECyNs74bGpVUpLFJAeiF8z1SIDvdY/K0R74+GQ="
-    on: heroku-master
+    on: "heroku-master"
     app:
       heroku-master: sestopia-gatsby
