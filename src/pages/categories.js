@@ -30,6 +30,7 @@ const CategoriesPage = ({
         ))}
       </ul>
     </div>
+    <Link to='/'>&#8592;Back to the Home Page</Link>
     <Footer></Footer>
   </Layout>
 )

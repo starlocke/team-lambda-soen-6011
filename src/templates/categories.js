@@ -28,7 +28,8 @@ const Categories = ({ pageContext, data }) => {
               This links to a page that does not yet exist.
               You'll come back to it!
             */}
-      <Link to="/categories">All categories</Link>
+      <Link to="/categories">View all categories</Link>
+      <Link style={{display: 'block', margin: '1em 0'}} to='/'>	&#8592; Back to the Home Page</Link>
       <Footer></Footer>
     </Layout>
   )

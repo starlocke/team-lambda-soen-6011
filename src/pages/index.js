@@ -4,20 +4,25 @@ import { graphql } from "gatsby"
 import PropTypes from 'prop-types'
 
 import Layout from "../components/layout/layout"
-import SearchBar from "../components/searchBar/searchBar"
 import SEO from "../components/seo"
 import { Footer } from "../components/footer"
+import CategoriesContainer from "../components/categories/categories"
 
 const IndexPage = (
   {
-    data: { allMarkdownRemark: { edges } }
+    data: { 
+      main: {
+       edges
+      },
+      category
+    }
   }) => (
   <Layout>
     <SEO
       title="Home"
       keywords={[`gatsby`, `application`, `react`, `accessibility`]}
     />
-    <h1>Skill Description Page Index</h1>
+    <CategoriesContainer group = {category} />
     <div>
       {
         edges.map(
@@ -52,7 +57,7 @@ IndexPage.propTypes = {
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___title] }) {
+    main: allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___title] }) {
       edges {
         node {
           id
@@ -63,6 +68,12 @@ export const pageQuery = graphql`
             author
           }
         }
+      }
+    }
+    category: allMarkdownRemark(limit: 2000) {
+      group(field: frontmatter___categories) {
+        fieldValue
+        totalCount
       }
     }
   }

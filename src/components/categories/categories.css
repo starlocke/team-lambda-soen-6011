@@ -1,0 +1,6 @@
+.category__wrapper {
+    max-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
