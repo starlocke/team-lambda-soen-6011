@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Ben Robertson <hi@benrobertson.io>",
   "engines": {
-    "yarn": "1.21.1"
+    "yarn": ">= 1.21.1"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
