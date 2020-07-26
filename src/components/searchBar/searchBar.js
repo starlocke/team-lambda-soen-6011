@@ -2,11 +2,33 @@ import React, { Component } from 'react'
 import { Link } from 'gatsby'
 import './searchBar.css'
 
+const initialState = {
+  query: '',
+  results: [],
+}
+
 class Search extends Component {
-  state = {
-    query: '',
-    results: [],
+  state = initialState
+
+  reset() {
+    this.setState(initialState);
   }
+
+  componentDidMount() {
+    document.addEventListener("mousedown", this.handleClickOutside);
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener("mousedown", this.handleClickOutside);
+  }
+
+  node = React.createRef();
+
+  handleClickOutside = e => {
+    if (!this.node.current.contains(e.target)) {
+      this.reset();
+    }
+  };
 
   render() {
     const ResultList = () => {
@@ -26,17 +48,18 @@ class Search extends Component {
     }
 
     return (
-      <div className={this.props.classNames}>
-        <label htmlFor="searchInput">Search Skill Pages:</label>
+      <div className="search__container">
+        <label htmlFor="searchInput">Search All Skill Pages</label>
         <input
           className="search__input"
           id="searchInput" 
+          autoComplete = "off"
           value={this.state.query}
           type="text"
           onChange={this.search}
           placeholder={'Search'}
         />
-        <div className={this.state.results.length == 0 ? '' : 'search__list'}>
+        <div ref={this.node} className={this.state.results.length == 0 ? '' : 'search__list'}>
           <ResultList />
         </div>
       </div>

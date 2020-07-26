@@ -18,7 +18,6 @@ const IndexPage = (
       keywords={[`gatsby`, `application`, `react`, `accessibility`]}
     />
     <h1>Skill Description Page Index</h1>
-    <SearchBar />
     <div>
       {
         edges.map(

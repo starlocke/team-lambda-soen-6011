@@ -1,3 +1,7 @@
+.search__container {
+    margin-bottom: 1.5em;
+}
+
 .search__list {
     border: 0.5px solid black;
     padding: 0;

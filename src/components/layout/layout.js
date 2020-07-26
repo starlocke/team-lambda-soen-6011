@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
 import Header from "../header/header"
+import SearchBar from "../searchBar/searchBar"
 import "./layout.css"
 
 export const Layout = ({ children }) => (
@@ -34,6 +35,7 @@ export const Layout = ({ children }) => (
             paddingTop: 0,
           }}
         >
+          <SearchBar />
           <main>{children}</main>
         </div>
       </>

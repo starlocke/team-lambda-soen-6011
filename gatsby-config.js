@@ -28,24 +28,22 @@ module.exports = {
             indexed: true,
             resolver: 'frontmatter.title',
             attributes: {
-              encode: 'balance',
-              tokenize: 'strict',
-              threshold: 6,
-              depth: 3,
+              encode: "icase",
+              tokenize: "forward",
+              resolution: 9
             },
             store: true,
           },
           {
-            name: 'description',
+            name: 'author',
             indexed: true,
-            resolver: 'frontmatter.description',
+            resolver: 'frontmatter.author',
             attributes: {
-              encode: 'balance',
-              tokenize: 'strict',
-              threshold: 6,
-              depth: 3,
+              encode: "icase",
+              tokenize: "forward",
+              resolution: 9
             },
-            store: false,
+            store: true,
           },
           {
             name: 'content',
@@ -53,10 +51,9 @@ module.exports = {
             limit: 5,
             resolver: 'rawMarkdownBody',
             attributes: {
-              encode: 'balance',
-              tokenize: 'strict',
-              threshold: 6,
-              depth: 3,
+                encode: "icase",
+                tokenize: "forward",
+                resolution: 9
             },
             store: false,
           },
