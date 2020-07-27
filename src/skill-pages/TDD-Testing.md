@@ -1,5 +1,5 @@
 ---
-slug: "/skills/software-construction/TDD_testing"
+slug: "/skills/software-construction/tdd-testing"
 title: 'Test Driven Development Testing'
 author: 'Hardik Vora'
 categories: ["software-construction"]
