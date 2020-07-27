@@ -1,4 +1,4 @@
-TravisCI "master": [![Build Status](https://travis-ci.com/starlocke/team-lambda-soen-6011.svg?token=J8nfhx4SoWVrS22Jpkmd&branch=master)](https://travis-ci.com/starlocke/team-lambda-soen-6011)
+**TravisCI "master":** [![Build Status](https://travis-ci.com/starlocke/team-lambda-soen-6011.svg?token=J8nfhx4SoWVrS22Jpkmd&branch=master)](https://travis-ci.com/starlocke/team-lambda-soen-6011)
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
