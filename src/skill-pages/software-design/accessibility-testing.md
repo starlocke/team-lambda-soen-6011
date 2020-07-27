@@ -15,7 +15,6 @@ code or markup that defines structure, presentation, etc.<sup>2<sup/>
 
 ## Classification of Skill
 
-
 ## Prerequisites for Skill
 
 - Good undestanding of Web Content Accessibility Guidelines (WCAG) given by World Wide Web Consortium (W3C).<sup>2<sup/>
@@ -23,7 +22,6 @@ code or markup that defines structure, presentation, etc.<sup>2<sup/>
 ## Related Software Engineering Area(s)
 - Software design 
 - Software testing
-
 
 ## Rationale for Skill
 ### Why Web Accessibility is Important<sup>3<sup/>
@@ -63,7 +61,6 @@ Make all functionality available from a keyboard.
 
 Provide users enough time to read and use content.
 
-
 - Seizures and Physical Reactions
 
 Do not design content in a way that is known to cause seizures or physical reactions.
@@ -92,12 +89,7 @@ Help users avoid and correct mistakes.
 
 Maximize compatibility with current and future user agents, including assistive technologies.
 
-
 ## Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
-
-
-
-
 
 ## Role of Academia or Industry in Cultivating the Skill
 
@@ -115,7 +107,6 @@ The Functional Accessibility Evaluator (FAE) evaluates a website or a single web
 The reason for this skill score is because i have read about accesibilty before but have never tested it in any project. No academic or real world expereince with accessibilty testing is the reason for a score of 3. 
 
 By the end of SESTOPIA i expect skill score to go around 8-9. 
-
 
 ## References 
 1. [Web Accessiblity defintion](https://www.w3.org/wiki/Accessibility_testing)
