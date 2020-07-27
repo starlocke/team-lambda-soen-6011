@@ -1,5 +1,5 @@
 ---
-slug: "/skills/restful-api-programming"
+slug: "/skills/computing-foundations/restful-api-programming"
 title: 'RESTful API Programming'
 author: 'Warren White'
 categories: ['computing-foundations']
