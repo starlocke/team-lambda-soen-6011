@@ -6,11 +6,9 @@ categories: ["software-configuration-management"]
 date: '2020-07-26'
 ---
 
-## Name of Skill
+Automating Software Configuration Management (SCM) Pipelines.
 
-Automating Software Configuration Management (SCM) Pipelines
-
-- Designing, Developing, Maintaining and Managing Pipelines for:
+The art of designing, developing, maintaining and managing pipelines for:
   - Software Builds
   - Software Tests
   - and Software Artifacts (also known as "Deliverables")
