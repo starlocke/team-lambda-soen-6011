@@ -1,19 +1,18 @@
-
 ---
-slug: "/skills/software-engineering-management/Conducting-a-scrum-meeting"
+slug: "/skills/software-engineering-management/conducting-a-scrum-meeting"
 title: 'Conducting a Scrum Meeting'
 author: 'Hao Zhang'
-categories: ['Software Engineering management']
+categories: ['software-engineering-management']
 date: '2020-07-26'
 ---
 
 The daily Scrum meeting, also known as the daily stand-up, is the daily meeting where your software development team gathers to provide project status updates about what has been done, what needs to be done, and where there are issues.  
 
-  
 ## Classification of Skill
 - Human Relation Skills: 7  
 - Conceptual Skills: 4  
 ![A chart showing the classification mixture for the skill of scrum meeting](https://image-charts.com/chart?chan=1500%2CeaseOutBounce&chco=f57676%7C68cefd&chd=t%3A7%2C4&chdl=Human%20Relation%20Skills%7CConceptual%20Skills&chl=7%7C4&chli=11&chs=500x300&cht=pd&chtt=Classification%20of%20Skill)
+
 ## Prerequisites for Skill
 - Understanding of Agile software development methodologies, values, and practices
 - Familiar with Scale Agile Framework (SAFe)
@@ -51,7 +50,6 @@ When you’re running daily Scrum meetings, make sure that they’re just that �
 - **Development Team**: The team members who execute the work
 
 ## Work Related to Skill (Related Activities and Artifacts)
-
 - **Scrum Master**  
 A scrum master is a facilitator for an Agile development team; they are responsible for managing the exchange of information between team members. Scrum is a methodology that allows a team to self-organize and make changes quickly, in accordance with Agile principles.
 
