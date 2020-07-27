@@ -1,6 +1,6 @@
 ---
 slug: "/skills/software-design/accessibility-testing"
-title: 'Accessibility-testing'
+title: 'Accessibility testing'
 author: 'Manish Yadav'
 categories: ["software-design"]
 date: '2020-07-27'
@@ -104,6 +104,7 @@ The Functional Accessibility Evaluator (FAE) evaluates a website or a single web
 
 ## Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
 3 
+
 The reason for this skill score is because i have read about accesibilty before but have never tested it in any project. No academic or real world expereince with accessibilty testing is the reason for a score of 3. 
 
 By the end of SESTOPIA i expect skill score to go around 8-9. 
