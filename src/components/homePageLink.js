@@ -24,7 +24,7 @@ const Content = styled.main`
 `;
 
 const RawHomePageLink = () => (
-    <Link to='/'>Back to the Home Page</Link>
+    <Link to='/'>&#8592; Back to the Home Page</Link>
 )
 
 export const HomePageLink = () => (
