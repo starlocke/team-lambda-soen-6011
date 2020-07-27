@@ -8,11 +8,8 @@ date: '2020-07-26'
 ---
 
 The daily Scrum meeting, also known as the daily stand-up, is the daily meeting where your software development team gathers to provide project status updates about what has been done, what needs to be done, and where there are issues.  
-<div align=center><img src="https://blog.gotomeeting.com/wp-content/uploads/sites/8/2018/02/stand-up-meeting.jpg" width="50%" height="50%"></div>
 
   
-
-
 ## Classification of Skill
 - Human Relation Skills: 7  
 - Conceptual Skills: 4  
@@ -26,10 +23,8 @@ The daily Scrum meeting, also known as the daily stand-up, is the daily meeting 
 - Self-confidence
 - Creative, resourceful, and innovative at tackling complex challenges and resolving problems
 
-
 ## Related Software Engineering Area(s)
 - Agile Software Development
-
 
 ## Rationale for Skill  
 - **Keep the meetings on targe**  
@@ -64,9 +59,7 @@ A scrum master is a facilitator for an Agile development team; they are responsi
 Agile coaches help train corporate teams on the agile methodology and oversee the development of agile teams to ensure effective outcomes for the organization. They are responsible for guiding teams through the implementation process and are tasked with encouraging workers and leadership to embrace the agile method. The agile coach’s ultimate goal is to arm agile teams with the right knowledge, tools and training so that they’ll be able to use agile to its full potential.
 
 ## Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
-<div align='center'>
-  <a href="https://www.youtube.com/watch?v=2Vt7Ik8Ublw"><img src="https://i.ytimg.com/vi/2Vt7Ik8Ublw/maxresdefault.jpg"  width="50%" height="50%"></a>
-</div>
+[![A chart showing the classification mixture for the skill of scrum meeting](https://i.ytimg.com/vi/2Vt7Ik8Ublw/maxresdefault.jpg)](https://www.youtube.com/watch?v=2Vt7Ik8Ublw)
 <p align='center'>Click to watch "Scrum in under 5 minutes"</p>
 
 ## Role of Industry in Cultivating the Skill
@@ -105,5 +98,3 @@ I am well aware that computer science is not a reason why I can not be good at t
 - Scrum Roles: The Anatomy of a Scrum Team. https://www.projectmanager.com/blog/scrum-roles-the-anatomy-of-a-scrum-team
 - Scrum Overview for Agile Software Development https://www.mountaingoatsoftware.com/agile/scrum/resources/overview
 - The Benefits of Scrum in Manufacturing https://www.dummies.com/careers/project-management/benefits-scrum-manufacturing/
-
-
