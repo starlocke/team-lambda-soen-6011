@@ -6,6 +6,8 @@ categories: ["software-construction"]
 date: '2020-07-26'
 ---
 
+## Classification of Skill
+
 - Hard skill
 >Definition 1 – “Because, it is technical knowledge or training that you have gained through any life experience, including in your career or education.”
 >
