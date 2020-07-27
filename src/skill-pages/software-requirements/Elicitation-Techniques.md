@@ -1,5 +1,3 @@
-# Name of Skill
-	Elicitation Techniques
 # Classification of Skill
 It requires both soft skill and technical skill by a business analyst to perform various elicitation techniques.
 
