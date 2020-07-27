@@ -2,7 +2,7 @@
 slug: "/skills/software-design/accessibility-testing"
 title: 'Accessibility-testing'
 author: 'Manish Yadav'
-categories: ["Software-design"]
+categories: ["software-design"]
 date: '2020-07-27'
 ---
 
