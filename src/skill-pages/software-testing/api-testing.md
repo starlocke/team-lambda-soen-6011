@@ -6,10 +6,11 @@ categories: ["software-testing"]
 date: '2020-07-27'
 ---
 
-Before we talk about API testing, lets ask ourselves, what is API?<br>
-API is abbreviation for Application Programming Interface. It supports communication and data transfer between two independent software systems. A software system which implements api includes functions or sub program what can be executed by other software systems<br>
+Before we talk about API testing, lets ask ourselves, what is API?
 
-API testing is a sub area of software testing, is used to make sure the interactions among systems are going correctly, stably, and smoothly. It simulates client side, and send HTTP requests to server side. After receiving a response, the fake client side assures the formate and the content of the response is as expected.<br>
+API is abbreviation for Application Programming Interface. It supports communication and data transfer between two independent software systems. A software system which implements api includes functions or sub program what can be executed by other software systems.
+
+API testing is a sub area of software testing, is used to make sure the interactions among systems are going correctly, stably, and smoothly. It simulates client side, and send HTTP requests to server side. After receiving a response, the fake client side assures the formate and the content of the response is as expected.
 
 ## Classification of Skill
 
@@ -34,7 +35,7 @@ This is classified as technical skill
 
 ## Rationale for Skill
 
-API is used to retrieve and manipulate resources, and in most systems or products, recourses are usually the core of the products, for example the core resource of WhatsApp is contact relation and chat history etc, thus its necessary to test on resources.<br>
+API is used to retrieve and manipulate resources, and in most systems or products, recourses are usually the core of the products, for example the core resource of WhatsApp is contact relation and chat history etc, thus its necessary to test on resources.
 
 Also, what is returned from API is relative simple, unlike web pages which contain complex, unstable, and variable UI stuffs. API testing has less noise thus its easier to perform.<br>
 
@@ -84,7 +85,8 @@ Also, what is returned from API is relative simple, unlike web pages which conta
     - Van be run on Mac, Windows, Linux & Chrome Apps
     - Has a bunch of integrations like support for Swagger & RAML formats
     - Doesn't require learning a new language
-    - Enable users to easily share the knowledge with the team as they can package up all the requests and expected responses, then send to their colleagues<br>
+    - Enable users to easily share the knowledge with the team as they can package up all the requests and expected responses, then send to their colleagues
+
 (Top 5 free API testing tools (New & updated tools))
 
 - Soap UI
@@ -94,21 +96,22 @@ Also, what is returned from API is relative simple, unlike web pages which conta
     - Create custom code using Groovy
     - Powerful data-driven testing: Data is loaded from files, databases and Excel files to simulate how consumers interact with the APIs
     - Support native CI/CD integrations, asynchronous testing
-    - Other advanced features, such as an assertion wizard for Xpath, a form editor, and SQL query builder<br>
+    - Other advanced features, such as an assertion wizard for Xpath, a form editor, and SQL query builder
+
 (Top 5 free API testing tools (New & updated tools))
 
 ## Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
 
-7.<br>
+7.
+
 The code coverage I am able to achieve is around 70% - 80% during most of my projects
 
 ## References
 
-[1]API testing skills: Why you need them. (2014, July 17). On Test Automation. https://www.ontestautomation.com/api-testing-skills-why-you-need-them/<br>
-<br>
-[2]10 API Testing Tips for Beginners (SOAP & REST): Complete Guide. (2020, January 10). Retrieved from https://www.katalon.com/resources-center/blog/api-testing-tips/<br>
-<br>
-[3]“Introduction to API Testing with Real-Life Examples.” Test Automation Resources, 22 Oct. 2018, https://www.testautomationresources.com/api-testing/introduction-api-testing-examples/.<br>
-<br>
-[4]Top 5 free API testing tools (New & updated tools) | Katalon studio. (2020, July 20). Katalon Solution. https://www.katalon.com/resources-center/blog/top-5-free-api-testing-tools/<br>
-<br>
+[1]API testing skills: Why you need them. (2014, July 17). On Test Automation. https://www.ontestautomation.com/api-testing-skills-why-you-need-them/
+
+[2]10 API Testing Tips for Beginners (SOAP & REST): Complete Guide. (2020, January 10). Retrieved from https://www.katalon.com/resources-center/blog/api-testing-tips/
+
+[3]“Introduction to API Testing with Real-Life Examples.” Test Automation Resources, 22 Oct. 2018, https://www.testautomationresources.com/api-testing/introduction-api-testing-examples/
+
+[4]Top 5 free API testing tools (New & updated tools) | Katalon studio. (2020, July 20). Katalon Solution. https://www.katalon.com/resources-center/blog/top-5-free-api-testing-tools/
