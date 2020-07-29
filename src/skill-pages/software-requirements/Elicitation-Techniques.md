@@ -5,10 +5,9 @@ author: 'Chirag Vora'
 categories: ["software-requirements"]
 date: '2020-07-26'
 ---
-
-# Classification of Skill
+## Classification of Skill
 It requires both soft skill and technical skill by a business analyst to perform various elicitation techniques.
-
+![Pie Chart of Classification](https://drive.google.com/file/d/1fWfN6LwBJroT3yuCbAqi_FxVl9B87ElV/view?usp=sharing)
 ## Prerequisites for Skill
 
 First step to start with elicitation techniques is requirement elicitation which is to obtain a comphrensive and accurate understanding of project’s business need. During elicitation process, one must possess strong understanding of business needs in order to select right set of stakeholders and elicitation techniques.
@@ -17,19 +16,36 @@ First step to start with elicitation techniques is requirement elicitation which
 
  -  **Software Requirements-** “The Software Requirements knowledge area (KA) is concerned with the elicitation, analysis, specification, and validation of software requirements as well as the management of requirements during the whole life cycle of the software product. A software requirement is a property that must be exhibited by something in order to solve some problem in the real world. An essential property of all software requirements is that they be verifiable as an individual feature as a functional requirement or at the system level as a nonfunctional requirement.”
  - **Software Design-** “Software design is the software engineering life cycle activity in which software requirements are analyzed in order to produce a description of the software’s internal structure that will serve as the basis for its construction.”
- -  **Software Testing**
+ -  **Software Testing-** "Software Testing is defined as an activity to check whether the actual results match the expected results and to ensure that the software system is defect free. It involves the execution of a software component or system component to evaluate one or more properties of interest. Software testing also helps to identify errors, gaps, or missing requirements in contrary to the actual requirements. It can be either done manually or using automated tools. Some prefer saying Software testing as a White Box Testing and Black Box Testing."
+-   **Software Maintenance-** "Software Maintenance is the process of modifying a software product after it has been delivered to the customer. The main purpose of software maintenance is to modify and update software application after delivery to correct faults and to improve performance.
+Need for Maintenance –
+Software Maintenance must be performed in order to:
+-   Correct faults.
+-   Improve the design.
+-   Implement enhancements.
+-   Interface with other systems.
+-   Accommodate programs so that different hardware, software, system features, and telecommunications facilities can be used.
+-   Migrate legacy software.
+-   Retire software."
     
--   **Software Maintenance**
+-   **Software Configuration Management-** "Software Configuration Management(SCM) is a process to systematically manage, organize, and control the changes in the documents, codes, and other entities during the Software Development Life Cycle. The primary goal is to increase productivity with minimal mistakes. SCM is part of cross-disciplinary field of configuration management and it can accurately determine who made which revision."
     
--   **Software Configuration Management**
+-   **Software Engineering Management-** "Software engineering management can be defined as the application of management activities—planning, coordinating, measuring, monitoring, controlling, and reporting—to ensure that software products and software engineering services are delivered efficiently, effectively, and to the benefit of stakeholders."
     
--   **Software Engineering Management**
+-   **Software Engineering Process-** "Software processes are specified for a number of reasons: to facilitate human understanding, communication, and coordination; to aid management of software projects; to measure and improve the quality of software products in an efficient manner; to support process improvement; and to provide a basis for automated support of process execution."
     
--   **Software Engineering Process**
+-   **Software Engineering Models and Methods-** "Software engineering models and methods impose structure on software engineering with the goal of making that activity systematic, repeatable, and ultimately more success-oriented. Using models provides an approach to problem solving, a notation, and procedures for model construction and analysis. Methods provide an approach to the systematic specification, design, construction, test, and verification of the end-item software and associated work products."
     
--   **Software Engineering Models and Methods**
-    
--   **Software Quality**
+-   **Software Quality-** "Quality software is reasonably bug or defect free, delivered on time and within budget, meets requirements and/or expectations, and is maintainable.
+ISO 8402-1986 standard defines quality as “the totality of features and characteristics of a product or service that bears its ability to satisfy stated or implied needs.”
+Key aspects of quality for the customer include:
+-   Good design – looks and style
+-   Good functionality – it does the job well
+-   Reliable – acceptable level of breakdowns or failure
+-   Consistency
+-   Durable – lasts as long as it should
+-   Good after sales service
+-   Value for money"
 
 ## Rationale for Skill-
 
@@ -63,13 +79,14 @@ There are various techniques to perform elicitation-
 -   **Survey/questionnaire –** "While they preclude the opportunity for in-person, ad hoc conversations, surveys are useful for quickly gathering data from a large group of participants. Because free online survey software is readily available, surveys are an inexpensive way to gather objective input from customers or potential end users. As with selecting stakeholders, a successful survey or questionnaire must have well-chosen participants. As one researcher notes, questionnaires “can be useful when the population is large enough, and the issues addressed are clear enough to all concerned.” Surveys can be structured to offer a series of finite choices for feedback, or they can offer open-ended input, depending on the needs of the project at hand. Open-ended surveys are useful for a broader discovery of business needs; however, the larger the number of participants in open-ended surveys, the more prohibitive they are to analyze. Survey wording must be unambiguous and precise. It is good practice for an analyst to politely request that survey participants respond by a reasonable deadline and that they keep any proprietary business information contained within the survey confidential."
 
 
-# Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)-
+## Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)-
 
 It describes the survery of using various techniques which proved to be benificial over other techniques.
 **[https://www.diva-portal.org/smash/get/diva2:1117829/FULLTEXT01.pdf](https://www.diva-portal.org/smash/get/diva2:1117829/FULLTEXT01.pdf)**
 
 ## Role of Academia or Industry in Cultivating the Skill-
 Software Industry
+Real Estate
 
 ## Tools Supporting the Skill-
 
@@ -93,7 +110,7 @@ Software Industry
 
 ## Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)-
 7
-# References-
+## References-
 
 
 -   **[https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/1427/An-Overview-of-Requirements-Elicitation.aspx](https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/1427/An-Overview-of-Requirements-Elicitation.aspx)**
@@ -104,3 +121,8 @@ Software Industry
     
 -   **[http://article.sciencepublishinggroup.com/html/10.11648.j.se.20150302.11.html](http://article.sciencepublishinggroup.com/html/10.11648.j.se.20150302.11.html)**
 - **[https://stackedit.io/app#](https://stackedit.io/app#)**
+- **[http://swebokwiki.org/](http://swebokwiki.org/)**
+- **[https://www.guru99.com/software-configuration-management-tutorial.html](https://www.guru99.com/software-configuration-management-tutorial.html)**
+- **[https://www.geeksforgeeks.org/software-engineering-software-maintenance/#:~:text=Software%20Maintenance%20is%20the%20process,faults%20and%20to%20improve%20performance.](https://www.geeksforgeeks.org/software-engineering-software-maintenance/#:~:text=Software%20Maintenance%20is%20the%20process,faults%20and%20to%20improve%20performance.)**
+- **[https://www.guru99.com/software-testing-introduction-importance.html](https://www.guru99.com/software-testing-introduction-importance.html)**
+- **[http://tryqa.com/what-is-software-quality/#:~:text=Quality%20software%20is%20reasonably%20bug,satisfy%20stated%20or%20implied%20needs.%E2%80%9D](http://tryqa.com/what-is-software-quality/#:~:text=Quality%20software%20is%20reasonably%20bug,satisfy%20stated%20or%20implied%20needs.%E2%80%9D)**
