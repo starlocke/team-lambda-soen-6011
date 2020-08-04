@@ -27,6 +27,11 @@ for this skill.
 
 ## Prerequisites for Skill
 
+Presented here is a limited estimation of what may the most fundamental prerequisites
+needed to be skilled at automating software configuration management. The details
+of the foundations are left to the reader to explore in further detail, as each
+one requires a significant investment in terms of its breadth and depth.
+
 ### Foundations: Configuration Management Knowledge, Experience, and Skill
 
 Whether through formal or informal training, one should have sufficient knowledge
@@ -43,6 +48,10 @@ minimum prerequisite to being able to automate software configuration management
 Purely analyzing the full breadth of software configuration management, though,
 it becomes clear that having a lot experience, knowledge, and skill in all
 the related software engineering areas of knowledge would be most beneficial.
+
+Pathways to acquiring a sufficient amount of know-how in configuration management
+may be studies (formal or informal) in: computer science, software engineering,
+and/or information systems.
 
 This provides the 10 out of 10 classification of this skill in the technical domain.
 
@@ -66,16 +75,18 @@ basis to remain employed in software configuration management would be consisten
 delivering positive results by solving a practically never-ending series of challenges
 needing solutions.
 
-An illustrative example of this would be "time". Suppose there is a relatively
+An illustrative example of this would be about "time". Suppose there is a relatively
 simple software project involving client-server communications secured using
-an algorithm that incorporates the current time for security. Initially, an
+an algorithm that incorporates the current time (+/- some margin) for security. Initially, an
 automated software configuration management system works brilliantly. Then,
 suddenly, all of its alerts fire off. The culprit? The clocks between the systems
 under test have been drifting apart slowly until the day the "surprise bomb"
 causes chaos in an otherwise perfectly functioning system. Without having ever
 seen or heard about "clock drift" interference before, it would take some
 tenacious problem solving skill to discern the root cause of the issue and
-resolve it.
+resolve it. An overview of more clock issues is provided by Marco Platania's
+"[Clock Synchronization](http://www.cnds.jhu.edu/~platania/index_files/clock_sync.pdf)"
+presentation.
 
 Of course, there are also many problems in SCM that operate on multiple facets
 and concerns. For instance, making trade-offs between "perfect" and "good enough"
@@ -83,8 +94,9 @@ solutions in order to meet various pressures like contracted delivery dates,
 economics, societal expectations, best practices, professionalism, etc.
 
 For these reasons, essentially the constant need to get some grasp on the "big
-picture" of the project, this skill is marked 10 out of 10 as a conceptual
-skill.
+picture" (ex: communications are secure) of the project while concurrently solving many
+"small detail" issues (ex: clocks are synchronized), this skill is marked 10 out
+of 10 as a conceptual skill.
 
 ### Foundations: People Skills
 
@@ -302,7 +314,11 @@ SCM automation, with brief additional insights.
 
 ## Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
 
-...
+"Integrated devops toolchain for continuous integration/continuous delivery with Jenkins"
+is a representative example of a small-scale demonstrative of the central ideas
+behind automating software configuration management.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZUmPMXfHtVo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Role of Academia or Industry in Cultivating the Skill
 
@@ -367,9 +383,9 @@ direction.
 
 By and large, many of the largest players in the industrial world are already
 advocating a multitude of options towards automating SCM. It is typical to find
-the likes of IBM touting guides and tutorials on specific SCM tools and methods.
-That is, rather obviously, because they aim to maintain and advance their own
-positions as market leaders.
+the likes of [IBM touting](https://www.ibm.com/topics/automation) guides and tutorials
+on specific SCM tools and methods. That is, rather obviously, because they aim to
+maintain and advance their own positions as market leaders.
 
 Whereas automating physical processes produced the
 [industrial revolution](https://en.wikipedia.org/wiki/Industrial_Revolution),
@@ -395,7 +411,7 @@ from low-tech things all the way to complex hardware-software systems and proces
 In the low-tech realm, simple things such sticky notes would be legitimate tools
 for keep track of certain goals, tasks, targets, or whatever else might be needed.
 The humble sticky note is even commonly used in agile methodologies during
-various ceremonies and activities - notably in Kanban boards.
+various ceremonies and activities - notably in [Kanban boards](https://www.atlassian.com/agile/kanban/boards).
 
 For the sake of brevity, this article will go into more detail about just a few
 of the higher level tools that feature prominently at the heart of the automation
@@ -409,18 +425,55 @@ and multiple versions of a software project. In formal projects, it is of the
 utmost importance to be able to store the project's history, share that amongst
 collaborators, and be able to work on any particular commit as a starting
 point. The automated computer systems that operate in continuous integration
-and continuous deployment rely o **(work in progress!!)**
+and continuous deployment rely on code repositories as a source of truth.
+
+A sampling of commonly employed repository software follows:
 
 - [Git](https://git-scm.com/)
-- [Subversion (SVN)](http://subversion.apache.org/)
+  - Arguably the finest repository system.
 - [Mercurial](https://www.mercurial-scm.org/)
+  - May be an alternative to Git.
 - [Perforce](https://www.perforce.com/)
+  - Has a claim to fame in handling "binary" files.
+- [Subversion (SVN)](http://subversion.apache.org/)
+  - Arguably one of the worst repository systems. It is advised that
+    effort should be spent into convincing any SVN advocates to change their
+    mind and learn to use better tools.
 
 ### Automation of SCM
 
 - [Jenkins](https://www.jenkins.io/)
+  - Free; open-source; self-hosted; packaged as a cloud service, too.
 - [TravisCI](https://travis-ci.com/)
+  - Primarily an expensive cloud service.
 - [GitLab CI/CD](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/)
+  - Integrated CICD packed along with a web frontend to Git repositories and more.
+
+### Everything Else
+
+There is also an very large domain of supporting tools involved in the information
+technology aspects of SCM. Without naming specific tools, we can at least outline
+some samples of additional, typical concerns:
+
+- Backup and Disaster Recovery
+- Testing
+- Project Management
+- Documentation
+- Translation
+- Monitoring
+- Alerting
+- Data Mining
+- Business Intelligence
+- Archiving, Long Term and Short Term
+- Release Management
+- Marketing
+- Sales
+- Inventory
+- Logistics
+- _... and more!_
+
+In short, if it's something worthwhile automating as part of software configuration
+management, it will become a cross-functional utility to plug into the project.
 
 ## Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
 
