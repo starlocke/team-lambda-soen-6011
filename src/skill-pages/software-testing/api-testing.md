@@ -5,6 +5,10 @@ author: 'Xiyun Zhang'
 categories: ["software-testing"]
 date: '2020-07-27'
 ---
+## Table of Contents
+```toc
+# This code block gets replaced with the TOC
+```
 
 Before we talk about API testing, lets ask ourselves, what is API?
 
