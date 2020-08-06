@@ -131,7 +131,111 @@ the automated software configuration management need to be software developers t
 
 ## Related Software Engineering Area(s)
 
+The automation of software configuration management is related to the entirety
+of all software engineering areas. Some general orientation is described here
+to illustrate how the concerns of the "main project" are related to the
+"sub project" of automating the main project's configuration management.
+
+**Software Requirements**
+
+There will be requirements for the main project.
+
+There will also be requirements for the automation project.
+
+**Software Design**
+
+The detailed designs of the main project are a secondary concern when strictly
+focusing on the automation of the SCM pipelines.
+
+The detailed designs of the pipeline's tools and environments are of primary
+concern instead.
+
+**Software Construction**
+
+The main project's construction (programming) is largely left to specialists
+dedicated to solving its problems.
+
+The automation project will require various configurations and/or scripts
+to be produced to assemble and orchestrate all of the main project's components.
+
+**Software Testing**
+
+Developers of the main project are usually focused on "works on my machine"
+testing during their development.
+
+The automation project will continuously exercise the test systems throughout
+the life of the project, and, ideally, also be raising alerts to interested
+parties when failures are detected.
+
+**Software Maintenance**
+
+A "fully assembled" automatic software configuration management system supports
+software maintenance by providing an extensive archive of previously released
+versions of the main project.
+
+**Software Configuration Management**
+
 ...
+
+**Software Engineering Management**
+
+The concerns of software engineering management may be drawn out from the
+automated SCM pipelines to orient the project's course corrections over
+time. A simple example is drawing out Software Quality metrics from analyzers
+and realizing that more effort is needed on raising the code quality. Risks
+are typically pushed lower as automated SCM pipelines perform smoothly because
+there are significant cost savings over "manually" doing the exhausitive
+operations of a "full course" pipeline (building, testing, quality, archiving,
+releasing, reporting, etc).
+
+Between the main project, and the automation supporting project, there is often
+going to be a separation of concerns, with specialist team members dedicated
+to those distinct developments.
+
+**Software Engineering Process**
+
+...
+
+**Software Engineering Models and Methods**
+
+Typically, the models and methods of a the main software project are of a different
+domain than that of its supporting automation project.
+
+**Software Quality**
+
+Automated SCM pipelines are typically employed to produce reports that gauge
+software quality of the main project in a continuous fashion.
+
+**Software Engineering Professional Practice**
+
+...
+
+**Software Engineering Economics**
+
+The efforts put into automated SCM pipelines are intended to bring about significant
+returns on the investment on multiple terms. Time spent manually executing
+operations is significantly reduced; reliability is significantly increased;
+bugs are typically caught earlier in the software development lifecycle -- to
+name a few of the economic benefits that automation of pipelines may produce.
+
+**Computing Foundations**
+
+An extensive repertoire of computing foundations know-how is highly valuable
+to automating SCM pipelines. This is because the concerns of pipelines are
+each rather deep niches in their own right.
+
+**Mathematical Foundations**
+
+Success in automating SCM pipelines typically needs at least decent understanding
+of the mathematical foundations involved in software engineering; sufficient
+to construct efficient and correct solutions to typical software development
+problems.
+
+**Engineering Foundations**
+
+Adept skill and intuition in the application of engineering foundations is
+crutial to being skillful at constructing the automated SCM pipelines that
+support a software project.
 
 ## Rationale for Skill
 
@@ -477,7 +581,32 @@ management, it will become a cross-functional utility to plug into the project.
 
 ## Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
 
-...
+Whereas the spectrum can be tagged as follows:
+
+1-2: Notice / 3-4: Competent / 5-6: Proficient / 7-8: Expert / 9-10: Master
+
+I rate myself as a 10, for these reasons:
+
+- I spend time getting a more complete understanding of the problems at hand before
+  attempting to provide solutions for them.
+- I employ more meta-cognitive knowledge in my work.
+- I know of multiple possible strategies for complete tasks, and can compare
+  them with a view to select the optimal choices for those tasks.
+- I am capable of generating alternative solutions before selecting one.
+- I can decide which programming tasks are to be carried out completely manually;
+  partially manually, partially automatically; and, completely automatically.
+- I possess extensive technical knowledge.
+- I have the ability to combine SCM Automation knowledge with knowledge of
+  the application domain of the main project, and typically get tasked to fill
+  a primary developer (test developer, application developer, etc) role for
+  the main project where I have been initially assigned an SCM focus.
+- I have social skills to get along very well with moderate (ie: not antagonistic)
+  individuals.
+- I am very experienced, professionally across multiple types of projects and
+  programming languages.
+- I am also very skilled in various other domains, such as multimedia design and
+  production, enterpreneurship, use of the English language, and more.
+- I have created novel systems as solutions to deep and complex problems.
 
 ## References
 
