@@ -17,6 +17,8 @@
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-sharp": "^2.6.24",
     "gatsby-plugin-styled-components": "^3.3.10",
+    "gatsby-remark-autolink-headers": "^2.3.11",
+    "gatsby-remark-table-of-contents": "^0.0.9",
     "gatsby-remark-images": "^3.3.23",
     "gatsby-source-filesystem": "^2.3.19",
     "gatsby-transformer-remark": "^2.8.25",

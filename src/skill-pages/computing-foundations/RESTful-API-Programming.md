@@ -5,7 +5,10 @@ author: 'Warren White'
 categories: ['computing-foundations']
 date: '2020-07-26'
 ---
-
+## Table of Contents
+```toc
+# This code block gets replaced with the TOC
+```
 ## Classification of Skill
 
  - Technical Skills: 6
