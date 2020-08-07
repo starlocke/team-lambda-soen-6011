@@ -16,6 +16,11 @@ class Search extends Component {
 
   componentDidMount() {
     document.addEventListener("mousedown", this.handleClickOutside);
+    const body = document.querySelector("head");
+    const script = document.createElement("script");
+    const scriptText = document.createTextNode("document.querySelector('div.search__container').removeAttribute('style')");
+    script.appendChild(scriptText);
+    body.appendChild(script);
   }
 
   componentWillUnmount() {
@@ -48,20 +53,28 @@ class Search extends Component {
     }
 
     return (
-      <div className="search__container">
-        <label htmlFor="searchInput">Search All Skill Pages</label>
-        <input
-          className="search__input"
-          id="searchInput" 
-          autoComplete = "off"
-          value={this.state.query}
-          type="text"
-          onChange={this.search}
-          placeholder={'Search'}
-        />
-        <div ref={this.node} className={this.state.results.length == 0 ? '' : 'search__list'}>
-          <ResultList />
+      <div>
+        <div className="search__container" style={{display:'none'}}>
+          <label htmlFor="searchInput">Search All Skill Pages</label>
+          <input
+            className="search__input"
+            id="searchInput" 
+            autoComplete = "off"
+            value={this.state.query}
+            type="text"
+            onChange={this.search}
+            placeholder={'Query'}
+          />
+          <div ref={this.node} className={this.state.results.length == 0 ? '' : 'search__list'}>
+            <ResultList />
+          </div>
         </div>
+        <noscript>
+          <form method="GET" action="https://www.google.com/search">
+            <input type="hidden" name="q" value="site:sestopia-gatsby.herokuapp.com" />
+            <label>Search Sestopia:<br/><input type="text" name="q" value="" placeholder="Query" /></label>
+          </form>
+        </noscript>
       </div>
     )
   }
