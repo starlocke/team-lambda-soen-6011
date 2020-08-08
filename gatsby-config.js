@@ -1,10 +1,10 @@
 module.exports = {
   pathPrefix:"/team-lambda-soen-6011",
   siteMetadata: {
-    title: "SESTOPIA",
+    title: "SESTOPIA - Team Lambda",
     description:
-      "Kick off your next, great accessible Gatsby project with this starter. This starter ships with the main Gatsby configuration files you might need, as well as built-in jsx linting for accessibility errors, react-axe for catching accessibility errors in the DOM during production, and a storybook configured to test individual components for accessibility errors.",
-    author: "@gatsbyjs",
+      "A repository of informative articles on software engineering skills categorized by knowledge areas defined in SWEBOK V3.0.",
+    author: "Team L for SOEN-6011 Summer 2020",
     siteUrl: `https://sestopia-gatsby.herokuapp.com/`,
   },
   plugins: [
