@@ -7,6 +7,7 @@ import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
 import { Footer } from "../components/footer"
 import CategoriesContainer from "../components/categories/categories"
+import AuthorsContainer from "../components/authors/authors"
 
 const IndexPage = (
   {
@@ -14,15 +15,19 @@ const IndexPage = (
       main: {
        edges
       },
-      category
+      category,
+      author
     }
   }) => (
   <Layout>
     <SEO
       title="Home"
-      keywords={[`gatsby`, `application`, `react`, `accessibility`]}
+      keywords={[`SESTOPIA`, `application`, `SWEBOK`, `software engineering`, 
+      `information`, `skills`
+    ]}
     />
     <CategoriesContainer group = {category} />
+    <AuthorsContainer group = {author} />
     <div>
       {
         edges.map(
@@ -72,6 +77,12 @@ export const pageQuery = graphql`
     }
     category: allMarkdownRemark(limit: 2000) {
       group(field: frontmatter___categories) {
+        fieldValue
+        totalCount
+      }
+    }
+    author: allMarkdownRemark(limit: 2000) {
+      group(field: frontmatter___author) {
         fieldValue
         totalCount
       }

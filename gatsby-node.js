@@ -17,6 +17,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
   const categoryTemplate = path.resolve("src/templates/categories.js")
+  const authorTemplate = path.resolve("src/templates/authors.js")
 
   return graphql(`
     {
@@ -31,6 +32,11 @@ exports.createPages = ({ graphql, actions }) => {
       }
       categoriesGroup: allMarkdownRemark(limit: 2000) {
         group(field: frontmatter___categories) {
+          fieldValue
+        }
+      }
+      authorsGroup: allMarkdownRemark(limit: 2000) {
+        group(field: frontmatter___author) {
           fieldValue
         }
       }
@@ -55,6 +61,18 @@ exports.createPages = ({ graphql, actions }) => {
         context: {
           category: category.fieldValue,
         },
+      })
+    })
+
+    const authors = result.data.authorsGroup.group
+
+    authors.forEach(author => {
+      createPage({
+        path: `/author/${_.kebabCase(author.fieldValue)}/`,
+        component: authorTemplate,
+        context: {
+          author: author.fieldValue,
+        }
       })
     })
 

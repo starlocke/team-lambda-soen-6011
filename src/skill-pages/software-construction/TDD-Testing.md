@@ -5,7 +5,6 @@ author: 'Hardik Vora'
 categories: ["software-construction"]
 date: '2020-07-26'
 ---
-
 ## Classification of Skill
 
 - Hard skill
