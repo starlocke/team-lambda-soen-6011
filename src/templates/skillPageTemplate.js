@@ -21,7 +21,7 @@ const SkillPageTemplate = ({
       </IndexLayout>
         <Layout>
         <h1>{frontmatter.title}</h1>
-        <h2>Authored by: {frontmatter.author}</h2>
+        <p>Authored by: {frontmatter.author}</p>
         <h2>Contents</h2>
           <div
             dangerouslySetInnerHTML={{ __html: tableOfContents }}
