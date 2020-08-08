@@ -11,7 +11,7 @@ const SkillPageTemplate = ({
   data,
 }) => {
   const { markdownRemark } = data
-  const { frontmatter, html } = markdownRemark
+  const { frontmatter, html, tableOfContents } = markdownRemark
   return (
     <>
       <IndexLayout>
@@ -22,6 +22,11 @@ const SkillPageTemplate = ({
         <Layout>
         <h1>{frontmatter.title}</h1>
         <h2>Authored by: {frontmatter.author}</h2>
+        <h2>Contents</h2>
+          <div
+            dangerouslySetInnerHTML={{ __html: tableOfContents }}
+            className="toc"
+          />
           <div
             dangerouslySetInnerHTML={{ __html: html }}
           />
@@ -40,6 +45,8 @@ export const pageQuery = graphql`
 query($slug: String!) {
   markdownRemark(frontmatter: { slug: { eq: $slug } }) {
     html
+    tableOfContents(
+      pathToSlugField: "frontmatter.slug")
     frontmatter {
       title
       slug

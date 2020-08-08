@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix:"/team-lambda-soen-6011",
   siteMetadata: {
     title: "SESTOPIA",
     description:
@@ -21,16 +22,11 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
+        tableOfContents: {
+          heading: null,
+          maxDepth: 6,
+        },
         plugins: [
-          {
-            resolve: `gatsby-remark-table-of-contents`,
-            options: {
-              exclude: "Table of Contents",
-              tight: false,
-              fromHeading: 1,
-              toHeading: 6
-            },
-          },
           `gatsby-remark-autolink-headers`,
           {
             resolve: `gatsby-remark-images`,
