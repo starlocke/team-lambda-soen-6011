@@ -1,0 +1,8 @@
+@media (min-width: 768px){
+    .author__wrapper {
+        max-height: 30vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
