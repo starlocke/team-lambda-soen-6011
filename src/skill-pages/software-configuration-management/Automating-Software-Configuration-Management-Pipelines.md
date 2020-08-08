@@ -5,10 +5,6 @@ author: 'Victor Yap'
 categories: ["software-configuration-management"]
 date: '2020-07-26'
 ---
-## Table of Contents
-```toc
-# This code block gets replaced with the TOC
-```
 
 Automating Software Configuration Management (SCM) Pipelines.
 
