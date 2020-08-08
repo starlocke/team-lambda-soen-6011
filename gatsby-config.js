@@ -4,6 +4,7 @@ module.exports = {
     description:
       "Kick off your next, great accessible Gatsby project with this starter. This starter ships with the main Gatsby configuration files you might need, as well as built-in jsx linting for accessibility errors, react-axe for catching accessibility errors in the DOM during production, and a storybook configured to test individual components for accessibility errors.",
     author: "@gatsbyjs",
+    siteUrl: `https://sestopia-gatsby.herokuapp.com/`,
   },
   plugins: [
     "gatsby-plugin-react-helmet", 
@@ -104,6 +105,9 @@ module.exports = {
           id: 'UA-173762678-1'
         }
       },
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
     },
   ],
 }
