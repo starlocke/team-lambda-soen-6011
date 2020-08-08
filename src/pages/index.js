@@ -22,7 +22,9 @@ const IndexPage = (
   <Layout>
     <SEO
       title="Home"
-      keywords={[`gatsby`, `application`, `react`, `accessibility`]}
+      keywords={[`SESTOPIA`, `application`, `SWEBOK`, `software engineering`, 
+      `information`, `skills`
+    ]}
     />
     <CategoriesContainer group = {category} />
     <AuthorsContainer group = {author} />
