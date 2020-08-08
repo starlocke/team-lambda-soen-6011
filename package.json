@@ -81,8 +81,7 @@
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -o static/storybook",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "build-storybook": "build-storybook -o static/storybook"
   },
   "repository": {
     "type": "git",

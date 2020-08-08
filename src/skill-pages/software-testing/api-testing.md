@@ -5,7 +5,6 @@ author: 'Xiyun Zhang'
 categories: ["software-testing"]
 date: '2020-07-27'
 ---
-
 Before we talk about API testing, lets ask ourselves, what is API?
 
 API is abbreviation for Application Programming Interface. It supports communication and data transfer between two independent software systems. A software system which implements api includes functions or sub program what can be executed by other software systems.

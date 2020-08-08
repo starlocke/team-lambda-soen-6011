@@ -5,7 +5,6 @@ author: 'Chirag Vora'
 categories: ["software-requirements"]
 date: '2020-07-26'
 ---
-
 # Classification of Skill
 It requires both soft skill and technical skill by a business analyst to perform various elicitation techniques.
 

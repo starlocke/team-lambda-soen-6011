@@ -5,7 +5,6 @@ author: 'Hao Zhang'
 categories: ['software-engineering-management']
 date: '2020-07-26'
 ---
-
 The daily Scrum meeting, also known as the daily stand-up, is the daily meeting where your software development team gathers to provide project status updates about what has been done, what needs to be done, and where there are issues.  
 
 ## Classification of Skill
