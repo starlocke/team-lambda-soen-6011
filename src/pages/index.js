@@ -25,6 +25,7 @@ const IndexPage = (
       keywords={[`gatsby`, `application`, `react`, `accessibility`]}
     />
     <CategoriesContainer group = {category} />
+    <AuthorsContainer group = {author} />
     <div>
       {
         edges.map(
