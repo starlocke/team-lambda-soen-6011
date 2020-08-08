@@ -1,9 +1,11 @@
 module.exports = {
+  pathPrefix:"/team-lambda-soen-6011",
   siteMetadata: {
     title: "SESTOPIA",
     description:
       "Kick off your next, great accessible Gatsby project with this starter. This starter ships with the main Gatsby configuration files you might need, as well as built-in jsx linting for accessibility errors, react-axe for catching accessibility errors in the DOM during production, and a storybook configured to test individual components for accessibility errors.",
     author: "@gatsbyjs",
+    siteUrl: `https://sestopia-gatsby.herokuapp.com/`,
   },
   plugins: [
     "gatsby-plugin-react-helmet", 
@@ -20,16 +22,11 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
+        tableOfContents: {
+          heading: null,
+          maxDepth: 6,
+        },
         plugins: [
-          {
-            resolve: `gatsby-remark-table-of-contents`,
-            options: {
-              exclude: "Table of Contents",
-              tight: false,
-              fromHeading: 1,
-              toHeading: 6
-            },
-          },
           `gatsby-remark-autolink-headers`,
           {
             resolve: `gatsby-remark-images`,
@@ -104,6 +101,9 @@ module.exports = {
           id: 'UA-173762678-1'
         }
       },
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
     },
   ],
 }
