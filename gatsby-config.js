@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix:"/team-lambda-soen-6011",
   siteMetadata: {
-    title: "SESTOPIA - Team L",
+    title: "SESTOPIA - Team Lambda",
     description:
-      "A repository of articles on software engineering skills categorized according to SWEBOK's recommendation.",
+      "A repository of informative articles on software engineering skills categorized by knowledge areas defined in SWEBOK V3.0.",
     author: "Team L for SOEN-6011 Summer 2020",
     siteUrl: `https://sestopia-gatsby.herokuapp.com/`,
   },
