@@ -5,6 +5,7 @@ author: 'Victor Yap'
 categories: ["software-configuration-management"]
 date: '2020-07-26'
 ---
+
 Automating Software Configuration Management (SCM) Pipelines.
 
 The art of designing, developing, maintaining and managing pipelines for:
@@ -580,11 +581,14 @@ management, it will become a cross-functional utility to plug into the project.
 
 ## Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
 
-Whereas the spectrum can be tagged as follows:
+Whereas the spectrum can be partitioned as follows, based on the [Dreyfus Model
+of Skill Acquisition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition):
 
-1-2: Notice / 3-4: Competent / 5-6: Proficient / 7-8: Expert / 9-10: Master
+1-2: Notice / 3-4: Advanced Beginner / 5-6: Competent / 7-8: Proficient / 9-10: Expert
 
-I rate myself as a 10, for these reasons:
+I rate myself as a 10, for these reasons, based on the guidelines provided
+in Professor Kamthan's [Introduction to Software Project Teams](/soen6011/software_project_teams_introduction.pdf),
+in _17.4.4. THE DREYFUS MODEL OF SKILL ACQUISITION_,:
 
 - I spend time getting a more complete understanding of the problems at hand before
   attempting to provide solutions for them.
