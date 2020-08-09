@@ -5,13 +5,17 @@ author: 'Warren White'
 categories: ['computing-foundations']
 date: '2020-07-26'
 ---
+The exponential growth of data that has come with the onset of _The Information Age_[1] has created an ever-widening problem space that converges to a few key questions out of which the one of interest to this article is - how can this data be accessed over an inter-network like the Internet? RESTful APIs have emerged from the corresponding solution space as a popular and scalable answer. The skill of programming and designing RESTful APIs therewith has become an integral skill for a software engineer.
+
 ## Classification of Skill
 
- - Technical Skills: 6
- - Human Relation Skills: 2
- - Conceptual Skills: 2
+Although, most people would classify this skill simply as a _technical_ or _hard_ skill, it is more multi-dimensional and thus each dimension is scored on a scale of 10 on the polar chart below.
 
-![RESTful API Programming & Design requires a blend of different types of skills](https://image-charts.com/chart?chan=1500%2CeaseOutBounce&chd=a%3A6%2C2%2C2&chf=ps0-0%2Clg%2C45%2Cffeb3b%2C0.2%2Cf443367C%2C1%7Cps0-1%2Clg%2C4%2C8bc34a%2C0.2%2C0096887C%2C1%7Cps0-2%2Clg%2C45%2CEA469E%2C0.2%2C03A9F47C%2C1%7Cps0-3%2Clg%2C45%2C03a9f4%2C0.2%2C03A9F47C%2C1&chl=Technical%7CConceptual%7CHuman&chs=600x400&cht=p&chtt=RESTful%20API%20Programming%20%26%20Design%20-%20Skill%20Classification)
+ - Technical Skills: 10
+ - Human Relation Skills: 4
+ - Conceptual Skills: 7
+
+![RESTful API Programming & Design requires a blend of different types of skills](https://image-charts.com/chart?chd=t%3A10%2C7%2C4&chdl=Technical%7CConceptual%7CHuman%20Relations&chf=ps0-0%2Clg%2C45%2Cffeb3b%2C0.2%2Cf443367C%2C1%7Cps0-1%2Clg%2C45%2C8bc34a%2C0.2%2C0096887C%2C1%7Cps0-2%2Clg%2C45%2CEA469E%2C0.2%2C03A9F47C%2C1&chs=700x500&cht=pa&chtt=Classification%20of%20Skill%20-%20RESTful%20API%20Programming&chxt=x%2Cy)
 
 ## Prerequisites for Skill
 
@@ -19,7 +23,7 @@ date: '2020-07-26'
 
 * A grasp on the fundamental concepts of application layer network protocols, specifically HTTP
 
-* Proficiency with the core language features and constructs of any imperative programming language
+* Proficiency with the core language features and constructs of any imperative[2] programming language
 
 ## Related Software Engineering Area(s)
 
@@ -27,11 +31,41 @@ date: '2020-07-26'
  - Software Testing
  - Software Design
  - Software Construction
- - Agile Software Project Management
+ - Agile Software Project Management[3]
 
 ## Rationale for Skill
 
-...
+Distributed systems comprising numerous specialized components, each designated to perform a specific function, have become ubiquitous owing to developments in information and communication technology, specifically those relating to the Internet. Application layer protocols such as HTTP (HyperText Transfer Protocol) have been enablers for web applications to become increasingly feature-rich when used in association with client (user-agent) technologies such as AJAX (Asynchronous JavaScript and XML). Such applications are characterized by their performance and high levels of user interactivity. In order to facilitate this functionality, it is paramount to reduce the size of payloads and data that flows between these specialized and distributed components. 
+
+### The Traditional Approach of Developing Web Applications
+
+For long and till today, most web applications have been developed as monoliths with the data layer (a database system), a business logic layer and a view layer, all part of the same codebase and even deployed on a single web server (which may be vertically or horizontally scaled, nevertheless). This approach works well when the complexity of the application doesn't hinder scaling as site traffic grows. Besides, there has been a more pertinent problem of software engineering teams finding it increasingly hard to onboard new engineers because it is often the case that a change in a part of the codebase may require many cascading changes in other parts - a paragon of high coupling. As prescribed by the wealth of software engineering literature available, high coupling is problematic and should be avoided.
+
+### Decomposition - A Key Driver of Scalable Web Application Architecture
+
+Consequently, engineering teams began decomposing web applications to usher in an era of more decentralized and clearly separated services. This allowed for both decentralized development and release processes. While the initial days of this transition employed SOAP (Simple Object Access Protocol) with XML (eXtensible Markup Language) as the data interchange standard[4], it was replaced soon with REST (Representational State Transfer) which was commonly utilized with lighter JSON (JavaScript Object Notation) payloads. It is important to mention that REST does not insist on the use of JSON. Instead, it allows for any universally accepted data interchange standard.
+
+### REST APIs versus Web Services
+
+While user-agents and web browser technology developments have been largely responsible for the popularity of REST APIs, a REST API is ultimately an API (Application Programming Interface) and not a web service because APIs by definition are a set of protocols that govern the communication between applications, in general; a web service is an application that very specifically communicates over the world-wide-web (which uses HTTP) with another application to exchange data resources. The difference between the two terms is elucidated when the fact that REST is protocol-agnostic becomes clear from its specification in Chapter 5 of Roy Fielding's dissertation[5].
+
+### REST in a nutshell
+
+REST defines some essential components and constraints that are summarized below from Roy Fielding's dissertation on the topic[5][6][7]:
+
+> - **Client-server:** REST applications have a server that manages application data and state. The server communicates with a client that handles the user interactions. A clear separation of concerns divides the two components. This means you can update and improve them in independent tracks.
+> - **Stateless:** Servers don’t maintain any client state. Clients manage their application state. Their requests to servers contain all the information required to process them.
+> - **Cacheable:** Servers must mark their responses as cacheable or not. So, infrastructure and clients can cache them when possible to improve performance. They can dispose of non-cacheable information so that no client uses stale data.
+> - **Uniform interface:** This constraint is REST’s most well-known feature or rule, depending on who you ask. Roy Fielding says “The central feature that distinguishes the REST architectural style from other network-based styles is its emphasis on a uniform interface between components.” REST services provide data as resources, with a consistent namespace.
+> - **Layered system** – Components in the system cannot “see” beyond their layer. So, you can easily add load-balancers and proxies to improve security or performance.
+
+Despite its simplicity in definition, this RESTful architectural style that constrains the applications using it to use a _uniform interface_ where verbs (`GET`, `POST`, `PUT`, `PATCH` etc.) act on data resources in a clearly defined way, has been the basis for a large number of well-scaled and highly available APIs. Popular applications that have used this RESTful architectural style include Stripe, Twilio, Uber among many others.
+
+![growth of public APIs over time](https://sestopia.s3.amazonaws.com/public_api_growth.png)
+
+As shown by the graph above, the number of REST APIs that organizations have opened up for public use has grown quite sharply since 2011. For instance, the Spotify API which is now open for public consumption can access Spotify user data like playlists and other information and as a result, has paved the way for more innovative applications to be developed by third-party developers.
+
+Evidently, the skill of both RESTful API programming and design has evolved to become an important part of any software engineer's skill-set, given the number of enterprises using decomposed REST APIs to provide access to their data resources both to clients as well as to other services and APIs within their organizations.
 
 ## Roles for Skill
 
@@ -53,13 +87,13 @@ RESTful API design and programming have several activities spanning a few minute
   - Software Architect
 
 **Artifacts produced:** 
-  - Most importantly, an API contract
+  - Most importantly, an API contract[8]
   - User Stories that enumerate the endpoints and their respective functionality as well as request/response schema
   - A Swagger/OpenAPI document with request/response schema definitions and endpoints albeit without API interactivity
 
 In most organizations that have resources represented as data, stored in databases of any type (relational, object-relational, document, etc.), there comes a point in time when clients and end-users might want to consume an interface that allows access to this data. If the exposed API is chosen to comply with the REST architectural style, then the design is critical as this activity lays the foundations for activities that follow.
 
-There have been conventions that have been prescriptive to RESTful API design, some of which are listed below:
+There have been conventions that have been prescriptive to RESTful API design, some of which are listed below[9]:
  
  - Use nouns in URIs to denote resources
  - Prefer using plural forms of these _resource_ nouns
@@ -71,7 +105,7 @@ There have been conventions that have been prescriptive to RESTful API design, s
  - Utilize query parameters instead of entirely new endpoints to perform searching, sorting and filtering
  - In concordance with the underlying stateless HTTP protocol, RESTful APIs should be stateless ie. independent of previous requests
  - For authorization and authentication, it is scalable to use tokens like JSON Web Tokens alongside OAuth
- - Use HTTP status codes conforming to [RFC 2616](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
+ - Use HTTP status codes conforming to RFC 2616[10]
  - Document the API using the OpenAPI standard
 
 ### Developing the Endpoints
@@ -91,7 +125,7 @@ Some popular frameworks that facilitate REST API development -
  - JAX-RS (uses Java)
  - Liberator (uses Clojure, a functional programming language)
 
-After making this intermediate technology choice, the engineers can proceed with creating these endpoints. It is assumed by this article and will not be elaborated that the database design and implementation are robust and scalable. Using one database type over another is rarely a problem unless the application domain is inherently suited to specific engines because there is normally a mapping tool or library that handles the mapping between intrinsically incompatible types. _AllegroGraph_, a graph database, is a good fit for geospatial data.
+After making this intermediate technology choice, the engineers can proceed with creating these endpoints. It is assumed by this article and will not be elaborated that the database design and implementation are robust and scalable. Using one database type over another is rarely a problem unless the application domain is inherently suited to specific engines because there is normally a mapping tool or library that handles the mapping between intrinsically incompatible types. _AllegroGraph_[11], a graph database, is a good fit for geospatial data.
 While most of these frameworks come with Object-Relational (or) Object-Document Mapping baked-in, it is possible that the occasional custom, 100-line long query might be required which would need to be passed directly to the database management system to process. In such cases, only the mapping from the relational record (or) document back to object or structural entity would be required from the mapping library.
 
 In order for an authentication and authorization standard to be utilized by the API (as suggested by the design activity), libraries that abstract the detail of creating JSON Web Tokens and interacting with intra-organization or external identity servers prove to be a good option. This way, engineers working on the API only need to call a method validating the token supplied by the user before proceeding to take action on a request. It is also an implicit requirement that when there an authentication and authorization standard followed, that there must be an endpoint on the API to retrieve a token when provided acceptable credentials.
@@ -106,9 +140,9 @@ In order for an authentication and authorization standard to be utilized by the 
 
 Although often categorized as a whole skill discipline in itself, testing forms an important part of RESTful API development. Not only does it validate that the API works as expected but also ensures that it fulfills the specification described in the API contract and end-user workflows. It is common for applications without visual user interfaces to not have feature and integration tests but it is prescribed because an end-user using the API, in order to perform an action may be required to go sequentially through a series of requests to multiple endpoints before acquiring the expected composite response.
 
-A testing strategy recommended by [SISENSE](https://www.sisense.com/blog/rest-api-testing-strategy-what-exactly-should-you-test/):
+A testing strategy recommended by SISENSE[12]:
 
- - Verify correct HTTP status code. 
+ - Verify correct HTTP status code[10]. 
 
    For example, creating a resource should return `201 CREATED` and unauthorized requests should return `403 FORBIDDEN`, etc.
 
@@ -135,23 +169,25 @@ A testing strategy recommended by [SISENSE](https://www.sisense.com/blog/rest-ap
  **Artifacts produced:** 
   - Comprehensive documentation compliant with the OpenAPI standard which is easily available and accessible to end-users
 
- This activity is intertwined with the development process and is best done as and when the endpoints are being developed. The documentation enumerates the endpoints of the API, describing requests, responses, status codes of return responses, error messages (and what they mean). In addition to these, when using OpenAPI, a Swagger UI is provided that allows users to interact with the API by filling out form fields for request properties.
+ This activity is intertwined with the development process and is best done as and when the endpoints are being developed. The documentation enumerates the endpoints of the API, describing requests, responses, status codes of return responses, error messages (and what they mean)[13]. In addition to these, when using OpenAPI, a Swagger UI is provided that allows users to interact with the API by filling out form fields for request properties.
 
-## Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
+## Real-World Example
 
-...
+This video introduces the viewer to some REST API concepts by making sample calls to Facebook's Graph API, Google Maps' API, Instagram's Media Search API, and Twitter's Status Update API. This provides a real world example of how REST APIs can be consumed by a third-party developer.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7YcW25PHnAA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Role of Academia or Industry in Cultivating the Skill
 
 The skill of RESTful API programming and design is one that emerges by an amalgamation of other more "atomic" skills which are often cultivated both by academia and industry. While academia provides the initial foundations in schools and universities in core concepts essential to this skill, industry provides a platform to further hone this skill by actually producing software artifacts that are production-ready.
 
-### Role of Academia:
+### Role of Academia
 
 Introductory programming classes offered at schools and universities provide students the requisite foundation in using programming constructs and teach them how to convert logic to code. Courses offered at universities focussed on _Computer Networks, Web Programming, Database Management Systems, and Object-Oriented Design_ serve as a solid pre-requisite to the cultivation of this skill. Higher-level programs and graduate courses also teach the finer aspects of producing high-quality RESTful APIs by introducing notions of good software design, scalable systems, and software quality.
 
 Besides the instructional aspects of academia, it is important to not discount the facet of research that many individuals are actively involved in at universities and research institutions. Research on REST APIs, microservices, and the design of large scale distributed systems has proven to be integral to providing direction every time industry reaches a bottleneck. This skill, thus, at its highest point would involve contributing to research in the same or related field.
 
-### Role of Industry:
+### Role of Industry
 
 Industry plays a rather different role by allowing engineers across experience levels to work on REST APIs (since this happens to be the skill under consideration) in an often domain-specific setting. For instance, consider a company that sources location and map data to end-users, engineers working on such a system will be developing APIs specific to the domain of geospatial data. This conceives a new dimension to the skill by taking the _raw_ skill of programming RESTful APIs to a more wholesome skill of programming and designing RESTful APIs specific to a particular application context (which is the intersection of domain knowledge areas and technical knowledge areas).
 
@@ -191,13 +227,41 @@ Most importantly, industry provides a hands-on approach to the cultivation of th
 
 ## Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
 
-### 8/10
+Self-assigned Score - **9/10**
 
 **Reasons for this self-assigned score:**
-I have worked in the capacity of a software engineer with most of my tasks centred around the development of RESTful APIs for about one and a half years. In this time, I've worked through the previously mentioned activities and have been actively involved in the production of the aforementioned artifacts. Given that I've worked through a transition process to break a monolith into microservices to enhance maintainability and separation of concerns as prescribed by the concepts of Service-Oriented Architecture, I've also observed the benefits that come with the use of lighter RESTful APIs instead of highly coupled monoliths.
+I have worked in the capacity of a software engineer with most of my tasks centred around the development of RESTful APIs for about one and a half years. In this time, I've worked through the previously mentioned activities and have been actively involved in the production of the aforementioned artifacts. Given that I've worked through a transition process to break a monolith into microservices[14] to enhance maintainability and separation of concerns as prescribed by the concepts of Service-Oriented Architecture, I've also observed the benefits that come with the use of lighter RESTful APIs instead of highly coupled monoliths.
 
 Nevertheless, it is a long way before I can deem myself an expert and in the context of today's ever so rapidly evolving software engineering world where problems are solved nearly as fast as they are created, it has become imperative that I, as a software engineer, adapt to these evolutions.
 
 ## References
 
-...
+1. Hilbert, M. and Lopez, P., 2011. The World's Technological Capacity to Store, Communicate, and Compute Information. Science, 332(6025), pp.60-65.
+
+2. Cs.lmu.edu. 2020. Paradigms. [online] Available at: <https://cs.lmu.edu/~ray/notes/paradigms/> [Accessed 9 August 2020].
+
+3. Dingsøyr, T., Nerur, S., Balijepally, V. and Moe, N., 2012. A decade of agile methodologies: Towards explaining agile software development. Journal of Systems and Software, 85(6), pp.1213-1221.
+
+4. The ReadMe Blog. 2020. The History Of REST Apis. [online] Available at: <https://blog.readme.com/the-history-of-rest-apis/> [Accessed 9 August 2020].
+
+5. Fielding, R., 2020. Fielding Dissertation: CHAPTER 5: Representational State Transfer (REST). [online] Ics.uci.edu. Available at: <https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm> [Accessed 9 August 2020].
+
+6. martinfowler.com. 2020. Richardson Maturity Model. [online] Available at: <https://martinfowler.com/articles/richardsonMaturityModel.html> [Accessed 9 August 2020].
+
+7. Karl, Z., vahab, r., Hegde, H., Gentile, V., Wilson, S., Johnson, E., Ali, A., Godse, P., Kobbanna, S., Kumar, P., Brihan, S. and Patil, S., 2020. REST Architectural Constraints - REST API Tutorial. [online] Restfulapi.net. Available at: <https://restfulapi.net/rest-architectural-constraints/> [Accessed 9 August 2020].
+
+8. Lane, K., 2020. API Evangelist | What Is An API Contract?. [online] API Evangelist. Available at: <https://apievangelist.com/2019/07/15/what-is-an-api-contract/> [Accessed 9 August 2020].
+
+9. Medium. 2020. REST: Good Practices For API Design. [online] Available at: <https://medium.com/hashmapinc/rest-good-practices-for-api-design-881439796dc9> [Accessed 9 August 2020].
+
+10. W3.org. 2020. HTTP/1.1: Status Code Definitions. [online] Available at: <https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html> [Accessed 9 August 2020].
+
+11. En.wikipedia.org. 2020. Allegrograph. [online] Available at: <https://en.wikipedia.org/wiki/AllegroGraph> [Accessed 9 August 2020].
+
+12. Sisense. 2020. REST API Testing Strategy: What Exactly Should You Test? L Sisense. [online] Available at: <https://www.sisense.com/blog/rest-api-testing-strategy-what-exactly-should-you-test/> [Accessed 9 August 2020].
+
+13. Documenting APIs. 2020. Documenting Apis: A Guide For Technical Writers And Engineers. [online] Available at: <https://idratherbewriting.com/learnapidoc/> [Accessed 9 August 2020].
+
+14. Escobar, D., Cardenas, D., Amarillo, R., Castro, E., Garces, K., Parra, C. and Casallas, R., 2016. Towards the understanding and evolution of monolithic applications as microservices. 2016 XLII Latin American Computing Conference (CLEI),.
+
+15. En.wikipedia.org. 2020. Dreyfus Model Of Skill Acquisition. [online] Available at: <https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition> [Accessed 9 August 2020].
