@@ -8,7 +8,7 @@ date: '2020-07-26'
 ## Classification of Skill
 
 It requires both soft skill and technical skill by a business analyst to perform various elicitation techniques.
-![Pie Chart of Classification](https://drive.google.com/file/d/1fWfN6LwBJroT3yuCbAqi_FxVl9B87ElV/view?usp=sharing)
+![Classification of Skill](https://image-charts.com/chart?chd=t%3A8%2C4%2C9&chdl=Technical%7CHuman%20Relation%7CConceptual&chf=ps0-0%2Clg%2C45%2Cffeb3b%2C0.2%2Cf443367C%2C1%7Cps0-1%2Clg%2C45%2C8bc34a%2C0.2%2C0096887C%2C1%7Cps0-2%2Clg%2C45%2CEA469E%2C0.2%2C03A9F47C%2C1&chs=700x500&cht=pa&chtt=Classification%20of%20Skill-%20Elicitation%20Techniques&chxt=x%2Cy)
 ## Prerequisites for Skill
 
 First step to start with elicitation techniques is requirement elicitation which is to obtain a comphrensive and accurate understanding of project’s business need. During elicitation process, one must possess strong understanding of business needs in order to select right set of stakeholders and elicitation techniques.
