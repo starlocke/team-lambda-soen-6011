@@ -8,7 +8,6 @@
     "yarn": ">= 1.21.1"
   },
   "dependencies": {
-    "@isamrish/gatsby-plugin-google-adsense": "^1.2.0",
     "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^2.3.16",
     "gatsby-cli": "^2.12.68",
@@ -39,9 +38,14 @@
     "@storybook/react": "^5.0.11",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.0.5",
-    "eslint": "^7.4.0",
+    "eslint": "^7.6.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-standard": "^4.0.1",
     "husky": "^2.1.0",
     "lint-staged": "^8.1.5",
     "prettier": "^1.17.0"
@@ -87,7 +91,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/benjamingrobertson/gatsby-starter-accessibility"
+    "url": "git+https://github.com/benjamingrobertson/gatsby-starter-accessibility.git"
   },
   "husky": {
     "hooks": {
@@ -98,5 +102,10 @@
     "*.js": [
       "eslint"
     ]
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/benjamingrobertson/gatsby-starter-accessibility/issues"
+  },
+  "homepage": "https://github.com/benjamingrobertson/gatsby-starter-accessibility#readme",
+  "main": "gatsby-browser.js"
 }

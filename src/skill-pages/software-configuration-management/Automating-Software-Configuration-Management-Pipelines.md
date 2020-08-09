@@ -5,14 +5,13 @@ author: 'Victor Yap'
 categories: ["software-configuration-management"]
 date: '2020-07-26'
 ---
-
-Automating [Software Configuration Management](https://en.wikipedia.org/wiki/Software_configuration_management) (SCM) [Pipelines](https://en.wikipedia.org/wiki/Pipeline_(software)).
+Automating Software Configuration Management (SCM) Pipelines.
 
 The art of designing, developing, maintaining and managing pipelines for:
 
-- Software Builds
-- Software Tests
-- and Software Artifacts (also known as "Deliverables")
+  - Software Builds
+  - Software Tests
+  - and Software Artifacts (also known as "Deliverables")
 
 ## Classification of Skill
 
@@ -131,129 +130,7 @@ the automated software configuration management need to be software developers t
 
 ## Related Software Engineering Area(s)
 
-The automation of software configuration management is related to the entirety
-of all software engineering areas. Some general orientation is described here
-to illustrate how the concerns of the "main project" are related to the
-"sub project" of automating the main project's configuration management.
-These software engineering areas are directly named as found in the
-[Software Engineering Body of Knowledge](https://www.computer.org/education/bodies-of-knowledge/software-engineering).
-
-**Software Requirements**
-
-There will be requirements for the main project.
-
-There will also be requirements for the automation project.
-
-**Software Design**
-
-The detailed designs of the main project are a secondary concern when strictly
-focusing on the automation of the SCM pipelines.
-
-The detailed designs of the pipeline's tools and environments are of primary
-concern instead.
-
-**Software Construction**
-
-The main project's construction (programming) is largely left to specialists
-dedicated to solving its problems.
-
-The automation project will require various configurations and/or scripts
-to be produced to assemble and orchestrate all of the main project's components.
-
-**Software Testing**
-
-Developers of the main project are usually focused on "works on my machine"
-testing during their development.
-
-The automation project will continuously exercise the test systems throughout
-the life of the project, and, ideally, also be raising alerts to interested
-parties when failures are detected.
-
-**Software Maintenance**
-
-A "fully assembled" automatic software configuration management system supports
-software maintenance by providing an extensive archive of previously released
-versions of the main project.
-
-**Software Engineering Management**
-
-The concerns of software engineering management may be drawn out from the
-automated SCM pipelines to orient the project's course corrections over
-time. A simple example is drawing out Software Quality metrics from analyzers
-and realizing that more effort is needed on raising the code quality. Risks
-are typically pushed lower as automated SCM pipelines perform smoothly because
-there are significant cost savings over "manually" doing the exhausitive
-operations of a "full course" pipeline (building, testing, quality, archiving,
-releasing, reporting, etc).
-
-Between the main project, and the automation supporting project, there is often
-going to be a separation of concerns, with specialist team members dedicated
-to those distinct developments.
-
-**Software Engineering Process**
-
-The automation of software configuration management pipelines essentially
-offers a solution for what would otherwise by tediously slow, manual performances
-of multiple activities within software engineering processes.
-
-When engineering processes are boiled down to a whole series of "input -> output"
-operations, well, the automation of those pipelines is an obvious action to take.
-However, the implementation of that automation is fraught with many challenges
-to overcome that are completely different for any project, and thus, "experience"
-and "skill" in producing that automation is essential.
-
-**Software Engineering Models and Methods**
-
-Typically, the models and methods of a the main software project are of a different
-domain than that of its supporting automation project.
-
-**Software Quality**
-
-Automated SCM pipelines are typically employed to produce reports that gauge
-software quality of the main project in a continuous fashion.
-
-**Software Engineering Professional Practice**
-
-The professionalism of the skill for automating software configuration management
-pipelines has produced a niche sub-industry within software engineering which
-provides certification of skills broadly under the "DevOps" umbrella. One such
-example is the option to become a
-[Microsoft Certified: DevOps Engineer Expert](https://docs.microsoft.com/en-us/learn/certifications/devops-engineer).
-
-Far more important than those certifications to a practioner of DevOps pipeline
-building, would be the collective, personal soft skills that one has in
-group dynamics, phychology and communication skills. To reiterate, there is
-a high degree of importance in tempering one's soft skills when involved in
-the automation of SCM pipelines because the "management spotlight" will always
-be looking to those responsible for the pipelines for "critical path" enablement
-to meet the goals of the software engineering project.
-
-**Software Engineering Economics**
-
-The efforts put into automated SCM pipelines are intended to bring about significant
-returns on the investment on multiple terms. Time spent manually executing
-operations is significantly reduced; reliability is significantly increased;
-bugs are typically caught earlier in the software development lifecycle -- to
-name a few of the economic benefits that automation of pipelines may produce.
-
-**Computing Foundations**
-
-An extensive repertoire of computing foundations know-how is highly valuable
-to automating SCM pipelines. This is because the concerns of pipelines are
-each rather deep niches in their own right.
-
-**Mathematical Foundations**
-
-Success in automating SCM pipelines typically needs at least decent understanding
-of the mathematical foundations involved in software engineering; sufficient
-to construct efficient and correct solutions to typical software development
-problems.
-
-**Engineering Foundations**
-
-Adept skill and intuition in the application of engineering foundations is
-crutial to being skillful at constructing the automated SCM pipelines that
-support a software project.
+...
 
 ## Rationale for Skill
 
@@ -354,34 +231,7 @@ instead of platform-specific issues.
 When the nature of a sofware project is such that the development team must also
 operate the software, then, the software configuration management of scale becomes
 a particularly interesting affair. This is typical of massive, cloud-based
-services like social media platforms which require data and services to be
-hosted on multiple physical servers across multiple physical locations.
-
-Another way to look at scale is the sheer number of pipelines needed to provide
-good solutions for the main project. There may be pipelines dedicated to performing
-intensive (large, complex) jobs only to build; only to test; only to generate
-documentation; only to package up an integration; only to produce a deliverable
-for release to the customer; etc. Any of those pipelines may even be further
-decomposed to smaller parts. In testing, there may be dedicated
-pipelines for testing code quality, for testing hardware (e.g. communication
-protocols, for instance), for testing software modules, for all the short-duration
-tests, for all the long-duration tests, etc.
-
-Automated SCM systems also need to be scaled-up to meet the demands of the team.
-To meet those demands, an SCM developer is in fact more like a producer who must
-somehow convince their patron to buy more hardware resources (concretely or virtually)
-in order for projects to succeed on-time and on-budget. It's not uncommon to be
-commissioning very high performance computer systems having price tags start at
-$10,000-$20,000 CAD or USD to serve the needs of software engineering projects.
-Compared to the loss of weeks' worth of time spent "idling" while "pipeline is
-running, code is compiling, testing, etc", it's economically smarter to absolutely
-push the runtime performance of pipelines to their best. These high-performance
-SCM pipelines are well-worth the investment when a software development team
-is: sufficiently large (15+, towards 25-50 members); sufficiently highly skilled
-to be expensive; and unable to tolerate delays in project delivery date. A degree
-of IT know-how in computer system configuration, construction, and administration
-would go a long way to supporting the skill of automating SCM pipelines and supporting
-a software project by providing the resources for accelerating the team's efficiency.
+services like social media platforms.
 
 ## Roles for Skill
 
@@ -600,24 +450,25 @@ A sampling of commonly employed repository software follows:
 
 ### Everything Else
 
-There is a very large domain of supporting tools and domains involved in the information
+There is also an very large domain of supporting tools involved in the information
 technology aspects of SCM. Without naming specific tools, we can at least outline
 some samples of additional, typical concerns:
 
-- [Backup and Disaster Recovery](https://en.wikipedia.org/wiki/Disaster_recovery)
-- [Testing](https://en.wikipedia.org/wiki/Software_testing)
-- [Project Management](https://en.wikipedia.org/wiki/Comparison_of_project_management_software)
-- [Documentation](https://en.wikipedia.org/wiki/Category:Technical_communication_tools)
-- [Translation](https://en.wikipedia.org/wiki/Translation)
-- [Monitoring](https://en.wikipedia.org/wiki/System_monitor#List_of_software_monitors)
-- [Alerting](https://en.wikipedia.org/wiki/Alerting_system)
-- [Data Mining](https://en.wikipedia.org/wiki/Data_mining#Software)
-- [Business Intelligence](https://en.wikipedia.org/wiki/Business_intelligence_software)
-- [Archiving, Long Term and Short Term](https://en.wikipedia.org/wiki/Archival_science)
-- [Release Management](https://en.wikipedia.org/wiki/Application-release_automation)
-- [Marketing](https://en.wikipedia.org/wiki/Marketing_automation)
-- [Sales](https://en.wikipedia.org/wiki/E-commerce)
-- [Inventory](https://en.wikipedia.org/wiki/Inventory_management_software)
+- Backup and Disaster Recovery
+- Testing
+- Project Management
+- Documentation
+- Translation
+- Monitoring
+- Alerting
+- Data Mining
+- Business Intelligence
+- Archiving, Long Term and Short Term
+- Release Management
+- Marketing
+- Sales
+- Inventory
+- Logistics
 - _... and more!_
 
 In short, if it's something worthwhile automating as part of software configuration
@@ -625,45 +476,8 @@ management, it will become a cross-functional utility to plug into the project.
 
 ## Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
 
-Whereas the spectrum can be partitioned as follows, based on the [Dreyfus Model
-of Skill Acquisition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition):
-
-1-2: Notice / 3-4: Advanced Beginner / 5-6: Competent / 7-8: Proficient / 9-10: Expert
-
-Objectively speaking, my skill score for the art of automating software configuration
-management pipelines is rated at 10.
-
-Based on [Andy Hunt's explanations of the Dreyfus Model](https://pragprog.com/titles/ahptl/)(Chapter 2),
-I am an expert, because I can analyze, design, implement, test and maintain very complex,
-multi-platform, multi-version, and even large-scale SCM pipelines largely from
-intuition. At this stage, I an entirely proficient as well, fully capable of
-effectively applying all sorts of software engineering and software development
-best practices in the solutions that I produce. Additionally, when factoring in considerations
-from [Francoise Detienne's modelling of experts](https://www.springer.com/gp/book/9781852332532)(Chapter 3.5),
-and it is certain that I am an expert because I exhibit all the traits of expert-level
-strategies and usages of knowledge in producing solutions for SCM automation.
-However, that's not all. I am also a "super expert" and "exceptional designer" because:
-I have broader experience as a strength (while also having longer experience than most of my
-peers, too) as I've worked on all sorts of software projects in all sorts of
-programming languages; proven, extensive degrees of technical and computing knowledge;
-a particular ability to combine said technical and computing knowledge with knowledge
-of any project's specific application domain; and social skills to get along very
-well with my peers.
-
-The justification on these claims? I've been a programmer since 1993. I hold a
-Bachelor of Computer Science degree from Concordia University in the double-major
-program "Digital Image and Sound and the Fine Arts" -- in today's terms, that means
-50% Computer Science + 50% Computation Arts. I will soon have earned a Master of Software
-Engineering degree, as well. Whether it's design arts, user experience, databases,
-web services, robotics, low-level communication protocols, or pretty much anything
-else in the techno-multimedia sphere, I'll have had done something in it. For
-leadership and enterprising know-how, I've always been keen on doing my part in
-local affairs such as managing various school clubs and associations; running
-the [Otakuthon Cultural Society](https://www.otakuthon.com/), the non-profit organization
-responsible for hosting Montreal's annual anime convention with attendance in the 20,000's,
-essentially always booking out the entire Palais Des Congrès (Montreal's convention centre);
-and keeping engaged with various professional groups, too.
+...
 
 ## References
 
-All references are in-line as hyperlinks, throughout this article.
+...

@@ -1,23 +1,23 @@
-const path = require(`path`);
-const _ = require("lodash")
-const { createFilePath } = require(`gatsby-source-filesystem`);
+const path = require('path')
+const _ = require('lodash')
+const { createFilePath } = require('gatsby-source-filesystem')
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
-  const { createNodeField } = actions;
-  if (node.internal.type === `MarkdownRemark`) {
-    const slug = createFilePath({ node, getNode, basePath: `skill-pages` });
+  const { createNodeField } = actions
+  if (node.internal.type === 'MarkdownRemark') {
+    const slug = createFilePath({ node, getNode, basePath: 'skill-pages' })
     createNodeField({
       node,
-      name: `slug`,
-      value: slug,
-    });
+      name: 'slug',
+      value: slug
+    })
   }
-};
+}
 
 exports.createPages = ({ graphql, actions }) => {
-  const { createPage } = actions;
-  const categoryTemplate = path.resolve("src/templates/categories.js")
-  const authorTemplate = path.resolve("src/templates/authors.js")
+  const { createPage } = actions
+  const categoryTemplate = path.resolve('src/templates/categories.js')
+  const authorTemplate = path.resolve('src/templates/authors.js')
 
   return graphql(`
     {
@@ -45,12 +45,12 @@ exports.createPages = ({ graphql, actions }) => {
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
         path: node.frontmatter.slug,
-        component: path.resolve(`./src/templates/skillPageTemplate.js`),
+        component: path.resolve('./src/templates/skillPageTemplate.js'),
         context: {
-          slug: node.frontmatter.slug,
-        },
-      });
-    });
+          slug: node.frontmatter.slug
+        }
+      })
+    })
     // Extract category data from query
     const categories = result.data.categoriesGroup.group
     // Make category pages
@@ -59,8 +59,8 @@ exports.createPages = ({ graphql, actions }) => {
         path: `/categories/${_.kebabCase(category.fieldValue)}/`,
         component: categoryTemplate,
         context: {
-          category: category.fieldValue,
-        },
+          category: category.fieldValue
+        }
       })
     })
 
@@ -71,10 +71,9 @@ exports.createPages = ({ graphql, actions }) => {
         path: `/author/${_.kebabCase(author.fieldValue)}/`,
         component: authorTemplate,
         context: {
-          author: author.fieldValue,
+          author: author.fieldValue
         }
       })
     })
-
-  });
-};
+  })
+}
