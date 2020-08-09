@@ -105,5 +105,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sitemap`,
     },
+    {
+      resolve: `@isamrish/gatsby-plugin-google-adsense`,
+      options: {
+        googleAdClientId: "ca-pub-3408066281142162",
+        head: true
+      }
+    },
   ],
 }
