@@ -2,12 +2,8 @@ import React from "react"
 import renderer from "react-test-renderer"
 import IndexPage from "../index"
 import { StaticQuery, useStaticQuery } from "gatsby"
-// import Layout from "../../components/layout/layout"
 beforeEach(() => {
-  const originalError = console.error;
   console.error = jest.fn();
-  // jest.mock("../../components/layout/layout", () => () => ('hi'));
-  // jest.mock("../../components/seo", () => () => ());
     StaticQuery.mockImplementationOnce(({ render }) =>
       render({
         site: {
@@ -26,22 +22,10 @@ beforeEach(() => {
         },
       },
     }));
-//     jest.mock(Layout, () => () => (<div>Hello World</div>));
-
-// jest.mock("../../components/layout/layout");
 })
 
 describe("IndexPage", () => {
   it("renders correctly", () => {
-    // jest.mock("../../components/layout/layout");
-    // jest.mock("../../components/layout/layout", () => {
-    //   return {
-    //     __esModule: true,
-    //     default: () => {
-    //       return <div></div>;
-    //     },
-    //   };
-    // });
     const data = {
           "main": {
             "edges": [
