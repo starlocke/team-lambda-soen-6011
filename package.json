@@ -8,6 +8,7 @@
     "yarn": ">= 1.21.1"
   },
   "dependencies": {
+    "@isamrish/gatsby-plugin-google-adsense": "^1.2.0",
     "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^2.3.16",
     "gatsby-cli": "^2.12.68",
