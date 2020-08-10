@@ -1,6 +1,6 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components"
 
-import { BREAKPOINT } from '../utils/constants';
+import { BREAKPOINT } from "../utils/constants"
 
 export const GlobalStyles = createGlobalStyle`
   @font-face {
@@ -94,4 +94,4 @@ export const GlobalStyles = createGlobalStyle`
       transition-duration: 0.01ms !important;
     }
   }
-`;
+`

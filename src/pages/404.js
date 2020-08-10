@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
-import { HomePageLink } from '../components/homePageLink'
+import { HomePageLink } from "../components/homePageLink"
 
 const NotFoundPage = () => (
   <Layout>

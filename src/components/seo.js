@@ -77,8 +77,7 @@ function SEO({ description, lang, meta, keywords, title }) {
             : []
         )
         .concat(meta)}
-    >
-    </Helmet>
+    ></Helmet>
   )
 }
 
@@ -87,7 +86,7 @@ SEO.defaultProps = {
   meta: [],
   keywords: [],
   description: ``,
-  title: `SESTOPIA`
+  title: `SESTOPIA`,
 }
 
 SEO.propTypes = {

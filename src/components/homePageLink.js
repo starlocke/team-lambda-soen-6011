@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import { BREAKPOINT } from '../utils/constants'
-import styled from 'styled-components'
+import React from "react"
+import { Link } from "gatsby"
+import { BREAKPOINT } from "../utils/constants"
+import styled from "styled-components"
 
 const Container = styled.div`
   margin: 0 auto;
@@ -12,7 +12,7 @@ const Container = styled.div`
   @media (max-width: ${BREAKPOINT}px) {
     padding: 0 5%;
   }
-`;
+`
 
 const Content = styled.div`
   margin: 0 auto;
@@ -21,16 +21,14 @@ const Content = styled.div`
   @media (max-width: ${BREAKPOINT}px) {
     width: 100%;
   }
-`;
+`
 
-const RawHomePageLink = () => (
-    <Link to='/'>&#8592; Back to the Home Page</Link>
-)
+const RawHomePageLink = () => <Link to="/">&#8592; Back to the Home Page</Link>
 
 export const HomePageLink = () => (
-    <Container>
-        <Content>
-            <RawHomePageLink />
-        </Content>
-    </Container>
+  <Container>
+    <Content>
+      <RawHomePageLink />
+    </Content>
+  </Container>
 )

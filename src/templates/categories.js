@@ -29,7 +29,10 @@ const Categories = ({ pageContext, data }) => {
               You'll come back to it!
             */}
       <Link to="/categories">View all categories</Link>
-      <Link style={{display: 'block', margin: '1em 0'}} to='/'>	&#8592; Back to the Home Page</Link>
+      <Link style={{ display: "block", margin: "1em 0" }} to="/">
+        {" "}
+        &#8592; Back to the Home Page
+      </Link>
       <Footer></Footer>
     </Layout>
   )
