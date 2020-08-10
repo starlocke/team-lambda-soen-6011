@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoriesPage renders correctly 1`] = `
+Array [
+  <header
+    style={
+      Object {
+        "background": "rebeccapurple",
+        "marginBottom": "1.45rem",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "0 auto",
+          "maxWidth": 960,
+          "padding": "1.45rem 1.0875rem",
+        }
+      }
+    >
+      <h1
+        style={
+          Object {
+            "margin": 0,
+          }
+        }
+      >
+        <a
+          href="/"
+          style={
+            Object {
+              "color": "white",
+              "textDecoration": "none",
+            }
+          }
+        >
+          my title
+        </a>
+      </h1>
+    </div>
+  </header>,
+  <div
+    style={
+      Object {
+        "margin": "0 auto",
+        "maxWidth": 960,
+        "padding": "0px 1.0875rem 1.45rem",
+        "paddingTop": 0,
+      }
+    }
+  >
+    <div>
+      <div
+        className="search__container"
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+      >
+        <label
+          htmlFor="searchInput"
+        >
+          Search All Skill Pages
+        </label>
+        <input
+          autoComplete="off"
+          className="search__input"
+          id="searchInput"
+          onChange={[Function]}
+          placeholder="Query"
+          type="text"
+          value=""
+        />
+        <div
+          className=""
+        >
+          
+        </div>
+      </div>
+      <noscript>
+        <form
+          action="https://www.google.com/search"
+          method="GET"
+        >
+          <input
+            name="q"
+            type="hidden"
+            value="site:sestopia-gatsby.herokuapp.com"
+          />
+          <label>
+            Search Sestopia:
+            <br />
+            <input
+              name="q"
+              placeholder="Query"
+              type="text"
+              value=""
+            />
+          </label>
+        </form>
+      </noscript>
+    </div>
+    <main>
+      <div>
+        <h1>
+          Categories
+        </h1>
+        <ul>
+          <li>
+            <a
+              href="/categories/tag-1/"
+            >
+              tag 1
+               (
+              1
+              )
+            </a>
+          </li>
+          <li>
+            <a
+              href="/categories/tag-2/"
+            >
+              tag 2
+               (
+              10
+              )
+            </a>
+          </li>
+        </ul>
+      </div>
+      <a
+        href="/"
+      >
+        ← Back to the Home Page
+      </a>
+      <footer
+        className="sc-AxjAm ipahVA"
+      >
+        SESTOPIA - An Information Intensive Application
+      </footer>
+    </main>
+  </div>,
+]
+`;
