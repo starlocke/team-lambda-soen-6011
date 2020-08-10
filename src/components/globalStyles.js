@@ -3,11 +3,6 @@ import { createGlobalStyle } from 'styled-components';
 import { BREAKPOINT } from '../utils/constants';
 
 export const GlobalStyles = createGlobalStyle`
-  :root {
-    --sides-padding-desktop: 3%;
-    --sides-padding-mobile: 5%;
-  }
-
   @font-face {
     font-display: block;
     font-style: normal;
@@ -33,8 +28,8 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background-color: var(--light-color);
-    color: var(--dark-color);
+    background-color: #fff;
+    color: #000;
     font-size: 19px;
     font-weight: 400;
     height: 100%;
@@ -69,11 +64,6 @@ export const GlobalStyles = createGlobalStyle`
   ul[class],
   ol[class] {
     list-style: none;
-  }
-
-  /* A elements that don't have a class get default styles */
-  a:not([class]) {
-    text-decoration-skip-ink: auto;
   }
 
   /* Make images easier to work with */

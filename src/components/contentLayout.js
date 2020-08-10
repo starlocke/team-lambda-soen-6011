@@ -8,10 +8,10 @@ import { BREAKPOINT } from '../utils/constants'
 const Wrapper = styled.div`
   margin: 0 auto;
   max-width: 1400px;
-  padding: 0 var(--sides-padding-desktop);
+  padding: 0 3%;
 
   @media (max-width: ${BREAKPOINT}px) {
-    padding: 0 var(--sides-padding-mobile);
+    padding: 0 5%;
   }
 `;
 
