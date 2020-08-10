@@ -14,7 +14,7 @@ const Container = styled.div`
   }
 `;
 
-const Content = styled.main`
+const Content = styled.div`
   margin: 0 auto;
   max-width: 900px;
 
