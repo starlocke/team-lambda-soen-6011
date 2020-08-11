@@ -8,3 +8,5 @@ deploy:
   on: master
   app:
     master: sestopia-gatsby
+script:
+- echo "skipping tests"
