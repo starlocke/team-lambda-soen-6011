@@ -36,7 +36,7 @@ export const Layout = ({ children }) => (
           }}
         >
           <SearchBar />
-          <main>{children}</main>
+          <div>{children}</div>
         </div>
       </>
     )}
