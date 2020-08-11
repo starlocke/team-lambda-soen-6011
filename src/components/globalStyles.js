@@ -18,6 +18,14 @@ export const GlobalStyles = createGlobalStyle`
     font-family: sans-serif;
   }
 
+  @media(max-width: 768px) {
+    iframe {
+      border: none;
+      width: 100%;
+      height: auto;
+    }
+  }
+  
   a {
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
