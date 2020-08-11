@@ -8,4 +8,5 @@ deploy:
   on: master
   app:
     master: sestopia-gatsby
-script: echo "npm test temporarily disabled"
+script:
+- echo "skipping tests"
