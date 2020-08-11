@@ -467,7 +467,7 @@ SCM automation, with brief additional insights.
 is a representative example of a small-scale demonstrative of the central ideas
 behind automating software configuration management.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZUmPMXfHtVo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZUmPMXfHtVo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Role of Academia or Industry in Cultivating the Skill
 

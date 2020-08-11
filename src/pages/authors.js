@@ -30,7 +30,7 @@ const AuthorsPage = ({
         ))}
       </ul>
     </div>
-    <Link to='/'>&#8592; Back to the Home Page</Link>
+    <Link to="/">&#8592; Back to the Home Page</Link>
     <Footer></Footer>
   </Layout>
 )
