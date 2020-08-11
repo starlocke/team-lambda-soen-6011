@@ -75,24 +75,29 @@ Subject|Implementation Code|Software Construction
 
 ## Work Related to Skill (Related Activities and Artifacts)
 
-- Write failing test code which failed due to the mismatch of the code with the expected test behavior. (RED box in Image 1)
+- Write failing test code which failed due to the mismatch of the code with the expected test behavior. (RED box in figure 1)
 
-- Then, just focus on writing code to pass the test. (GREEN box in Image 1)
+- Then, just focus on writing code to pass the test. (GREEN box in figure 1)
 
-- Now, test the code again and make sure with functionality. (REFACTOR box in Image 1)
+- Now, test the code again and make sure with functionality. (REFACTOR box in figure 1)
 
-- At the end, commit your code in repository and integrate with other code. (INTEGRATE box in Image 1)
-! [Image 1](https://www.google.com/search?q=tdd+images&rlz=1C1CHBF_enCA864CA864&sxsrf=ALeKk00DtzvqdX_J5qRnXy9-D3L6yp5YSA:1595450188413&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiAsvKN2-HqAhVthHIEHV_mCqoQ_AUoAXoECA0QAw&biw=1396&bih=686#imgrc=uLvSVrYmp416RM "Life-cycle of TDD")
+- At the end, commit your code in repository and integrate with other code. (INTEGRATE box in figure 1)
 
+![Life-cycle of TDD](https://www.industriallogic.com/wp-content/uploads/TDD4Step.png)
+
+					Figure 1. TDD Life Cycle
 
 ## Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
 
 - Example 1 –
 	- Video related scenario and unit testing for customer log in.
-	- https://www.youtube.com/watch?time_continue=142&v=lj5nnGa_DIw&feature=emb_logo
-- Example 2 –
-	- C# code test case (Image 2)
-	! [Image 2](https://www.google.com/search?q=unit+test+code+example+toptal+isPalimdrome&tbm=isch&ved=2ahUKEwjfhr2I3eHqAhUR06wKHVTzBTcQ2-cCegQIABAA&oq=unit+test+code+example+toptal+isPalimdrome&gs_lcp=CgNpbWcQA1D4uQNY8tADYI3UA2gAcAB4AIABe4gB5wmSAQM5LjSYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=WaUYX5_2N5GmswXU5pe4Aw&bih=686&biw=1396&rlz=1C1CHBF_enCA864CA864#imgrc=2sGnlccUQJz73M "Unit testing")
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/lj5nnGa_DIw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+- Example 2 
+	- C# code test case in figure 2.
+	![Image 2](https://dynamics.folio3.com/wp-content/uploads/2016/10/dynamics-image-3.jpg)
+
+					Figure 2. C# unit test code
 
 ## Role of Academia or Industry in Cultivating the Skill
 
@@ -138,50 +143,72 @@ Subject|Implementation Code|Software Construction
 
 ## References
 
-- https://www.guru99.com/test-driven-development.html
+[1] What Is Test Driven Development (tdd)? Tutorial with Example
+https://www.guru99.com/test-driven-development.html
 
-- https://en.wikipedia.org/wiki/Test-driven_development#:~:text=TDD%20is%20primarily%20a%20developer's,TDD%20requires%20test%20automation.
+[2] Test-driven Development
+https://en.wikipedia.org/wiki/Test-driven_development#:~:text=TDD%20is%20primarily%20a%20developer's,TDD%20requires%20test%20automation.
 
-- https://www.agilemania.com/blog/role-tester-test-driven-development-tdd/
+[3] Role Of Tester in Test Driven Development (tdd)
+https://www.agilemania.com/blog/role-tester-test-driven-development-tdd/
 
-- https://www.xenonstack.com/insights/what-is-test-driven-development/#:~:text=Mockito%20allows%20programmers%20to%20create,other%20tools%20and%20frameworks%20available.
+[4] Test Driven Development Tools and Agile Best Practices
+https://www.xenonstack.com/insights/what-is-test-driven-development/#:~:text=Mockito%20allows%20programmers%20to%20create,other%20tools%20and%20frameworks%20available.
 
-- https://www.guru99.com/unit-testing-guide.html
+[5] Unit Testing Tutorial: What Is, Types, Tools, Example
+https://www.guru99.com/unit-testing-guide.html
 
-- https://nugetmusthaves.com/Tag/tdd
+[6] Best 20 Nuget Tdd Packages
+https://nugetmusthaves.com/Tag/tdd
 
-- https://junit.org/junit4/
+[7] About
+https://junit.org/junit4/
 
-- https://medium.com/@joantolos/6-tools-to-help-you-do-tdd-with-nodejs-70d19a9ca041
+[8] 6 Tools To Help You Do Tdd with Nodejs
+Joan Tolos - https://medium.com/@joantolos/6-tools-to-help-you-do-tdd-with-nodejs-70d19a9ca041
 
-- https://en.wikipedia.org/wiki/Mockito
+[9] Mockito
+https://en.wikipedia.org/wiki/Mockito
 
-- https://en.wikipedia.org/wiki/JUnit
+[10] Junit
+https://en.wikipedia.org/wiki/JUnit
 
-- https://en.wikipedia.org/wiki/NuGet
+[11] Nuget
+https://en.wikipedia.org/wiki/NuGet
 
-- https://en.wikipedia.org/wiki/Mocha_(JavaScript_framework)
+[12] Mocha (javascript Framework)
+https://en.wikipedia.org/wiki/Mocha_(JavaScript_framework)
 
-- file:///C:/Users/hardi/Downloads/Applying_Test-driven_Development_to_Eval.pdf
+[13] file:///C:/Users/hardi/Downloads/Applying_Test-driven_Development_to_Eval.pdf
 
-- https://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=1036&context=csse_fac
+[14] Digitalcommons.calpoly.edu. 2020. [online] Available at: https://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=1036&context=csse_fac
 
-- https://www.industriallogic.com/blog/tdd-purposes-and-practices/
+[15] Tdd: Purposes and Practices
+Tim Ottinger 14 Nov 2019 12 min read facebook twitter linkedin - https://www.industriallogic.com/blog/tdd-purposes-and-practices/
 
-- https://www.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills#:~:text=Hard%20skills%20are%20related%20to,and%20advance%20in%20most%20jobs.
+[16] Hard Skills Vs. Soft Skills
+https://www.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills#:~:text=Hard%20skills%20are%20related%20to,and%20advance%20in%20most%20jobs.
 
-- https://www.wikijob.co.uk/content/interview-advice/competencies/technical-skills
+[17] The Most Important Technical Skills in 2020 – With Examples
+https://www.wikijob.co.uk/content/interview-advice/competencies/technical-skills
 
-- https://www.investopedia.com/terms/h/hard-skills.asp#:~:text=Hard%20skills%20are%20learned%20abilities,and%20subsequently%20improve%20employee%20satisfaction.
+[18]  Why Hard Skills Matter
+Julia Kagan - https://www.investopedia.com/terms/h/hard-skills.asp#:~:text=Hard%20skills%20are%20learned%20abilities,and%20subsequently%20improve%20employee%20satisfaction.
 
-- https://www.investopedia.com/terms/t/technical-skills.asp#:~:text=Technical%20skills%20are%20sets%20of,science%2C%20mathematics%20and%20information%20technology.
+[19] Technical Skills Definition
+Alan Farley - https://www.investopedia.com/terms/t/technical-skills.asp#:~:text=Technical%20skills%20are%20sets%20of,science%2C%20mathematics%20and%20information%20technology.
 
-- https://www.departmentofproduct.com/blog/writing-bdd-test-scenarios/#:~:text=Test%20driven%20development%20is%20primarily,specific%20parts%20of%20your%20application.&text=All%20tests%20are%20written%20before%20the%20code
+[20] Writing Bdd Test Scenarios
+Richard Holmes -https://www.departmentofproduct.com/blog/writing-bdd-test-scenarios/#:~:text=Test%20driven%20development%20is%20primarily,specific%20parts%20of%20your%20application.&text=All%20tests%20are%20written%20before%20the%20code
 
-- https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters
+[21] Unit Tests, How To Write Testable Code and Why It Matters
+Sergey Kolodiy - https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters
 
-- https://devops.com/the-benefits-of-test-driven-development/#:~:text=TDD%20Benefits&text=Because%20put%20in%20its%20simplest,user%20interfaces%20to%20achieve%20that.
+[22] The Benefits Of Test-driven Development
+Dave Farinelli - https://devops.com/the-benefits-of-test-driven-development/#:~:text=TDD%20Benefits&text=Because%20put%20in%20its%20simplest,user%20interfaces%20to%20achieve%20that.
 
-- https://dev.to/hudsonburgess7/7-reasons-you-should-be-using-test-driven-development
+[23] 7 Reasons You Should Be Using Test-driven Development
+Hudson Burgess - https://dev.to/hudsonburgess7/7-reasons-you-should-be-using-test-driven-development
 
-- https://medium.com/javascript-scene/testing-software-what-is-tdd-459b2145405c
+[24] Testing Software: What Is Tdd?
+Eric Elliott - https://medium.com/javascript-scene/testing-software-what-is-tdd-459b2145405c
