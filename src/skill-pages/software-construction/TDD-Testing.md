@@ -91,7 +91,7 @@ Subject|Implementation Code|Software Construction
 
 - Example 1 –
 	- Video related scenario and unit testing for customer log in.
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/lj5nnGa_DIw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/lj5nnGa_DIw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	
 - Example 2 
 	- C# code test case in figure 2.
