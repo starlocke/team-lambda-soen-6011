@@ -10,7 +10,7 @@ The daily Scrum meeting, also known as the daily stand-up, is the daily meeting 
 ## Classification of Skill
 - Human Relation Skills: 10  
 - Conceptual Skills: 8  
-- Technical Skills: 3
+- Technical Skills: 3  
 ![A chart showing the classification mixture for the skill of scrum meeting](https://image-charts.com/chart?chd=t%3A10%2C8%2C3&chdl=Human%20Relation%20Skills%7CConceptual%20Skills%7CTechnical%20Skills&chf=ps0-0%2Clg%2C45%2Cffeb3b%2C0.2%2Cf443367C%2C1%7Cps0-1%2Clg%2C45%2C8bc34a%2C0.2%2C0096887C%2C1%7Cps0-2%2Clg%2C45%2CEA469E%2C0.2%2C03A9F47C%2C1&chs=500x500&cht=pa&chtt=Classification%20of%20Skill&chxt=x%2Cy)
 
 ## Prerequisites for Skill
