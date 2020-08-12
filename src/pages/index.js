@@ -8,6 +8,7 @@ import SEO from "../components/seo"
 import { Footer } from "../components/footer"
 import CategoriesContainer from "../components/categories/categories"
 import AuthorsContainer from "../components/authors/authors"
+import IntroContainer from "../components/introContainer/introContainer"
 
 const IndexPage = ({
   data: {
@@ -28,6 +29,7 @@ const IndexPage = ({
         `skills`,
       ]}
     />
+    <IntroContainer />
     <CategoriesContainer group={category} />
     <AuthorsContainer group={author} />
     <div>
