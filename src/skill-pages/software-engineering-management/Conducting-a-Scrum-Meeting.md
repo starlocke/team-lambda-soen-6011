@@ -8,9 +8,10 @@ date: '2020-07-26'
 The daily Scrum meeting, also known as the daily stand-up, is the daily meeting where your software development team gathers to provide project status updates about what has been done, what needs to be done, and where there are issues.  
 
 ## Classification of Skill
-- Human Relation Skills: 7  
-- Conceptual Skills: 4  
-![A chart showing the classification mixture for the skill of scrum meeting](https://image-charts.com/chart?chan=1500%2CeaseOutBounce&chco=f57676%7C68cefd&chd=t%3A7%2C4&chdl=Human%20Relation%20Skills%7CConceptual%20Skills&chl=7%7C4&chli=11&chs=500x300&cht=pd&chtt=Classification%20of%20Skill)
+- Human Relation Skills: 10  
+- Conceptual Skills: 8  
+- Technical Skills: 3
+![A chart showing the classification mixture for the skill of scrum meeting](https://image-charts.com/chart?chd=t%3A10%2C8%2C3&chdl=Human%20Relation%20Skills%7CConceptual%20Skills%7CTechnical%20Skills&chf=ps0-0%2Clg%2C45%2Cffeb3b%2C0.2%2Cf443367C%2C1%7Cps0-1%2Clg%2C45%2C8bc34a%2C0.2%2C0096887C%2C1%7Cps0-2%2Clg%2C45%2CEA469E%2C0.2%2C03A9F47C%2C1&chs=500x500&cht=pa&chtt=Classification%20of%20Skill&chxt=x%2Cy)
 
 ## Prerequisites for Skill
 - Understanding of Agile software development methodologies, values, and practices
