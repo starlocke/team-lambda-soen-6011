@@ -4,6 +4,7 @@ import PropTypes from "prop-types"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout/layout"
 import Footer from "../components/footer"
+import { Helmet } from "react-helmet"
 
 const Authors = ({ pageContext, data }) => {
   const { author } = pageContext
@@ -11,8 +12,10 @@ const Authors = ({ pageContext, data }) => {
   const authorHeader = `${totalCount} post${
     totalCount === 1 ? "" : "s"
   } tagged with "${author}"`
+  const authorTitle = `${author} | SESTOPIA - Team Lambda`
   return (
     <Layout>
+      <Helmet title={authorTitle}/>
       <h1>{authorHeader}</h1>
       <ul>
         {edges.map(({ node }) => {

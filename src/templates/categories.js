@@ -4,6 +4,7 @@ import PropTypes from "prop-types"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout/layout"
 import Footer from "../components/footer"
+import { Helmet } from "react-helmet"
 
 const Categories = ({ pageContext, data }) => {
   const { category } = pageContext
@@ -11,8 +12,10 @@ const Categories = ({ pageContext, data }) => {
   const categoryHeader = `${totalCount} post${
     totalCount === 1 ? "" : "s"
   } tagged with "${category}"`
+  const categoryTitle = `${category} | SESTOPIA - Team Lambda`
   return (
     <Layout>
+      <Helmet title={categoryTitle}/>
       <h1>{categoryHeader}</h1>
       <ul>
         {edges.map(({ node }) => {
