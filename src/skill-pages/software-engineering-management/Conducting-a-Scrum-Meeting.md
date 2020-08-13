@@ -49,14 +49,14 @@ When you’re running daily Scrum meetings, make sure that they’re just that �
 - **Scrum Master**: The scrum expert who helps the team build the product according to the scrum framework
 - **Development Team**: The team members who execute the work
 
-## Work Related to Skill (Related Activities and Artifacts)
+## Work Related to Skill
 - **Scrum Master**  
 A scrum master is a facilitator for an Agile development team; they are responsible for managing the exchange of information between team members. Scrum is a methodology that allows a team to self-organize and make changes quickly, in accordance with Agile principles.
 
 - **Agile Coach**  
 Agile coaches help train corporate teams on the agile methodology and oversee the development of agile teams to ensure effective outcomes for the organization. They are responsible for guiding teams through the implementation process and are tasked with encouraging workers and leadership to embrace the agile method. The agile coach’s ultimate goal is to arm agile teams with the right knowledge, tools and training so that they’ll be able to use agile to its full potential.
 
-## Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
+## Real-World Example/Scenario of Skill
 [![A chart showing the classification mixture for the skill of scrum meeting](https://i.ytimg.com/vi/2Vt7Ik8Ublw/maxresdefault.jpg)](https://www.youtube.com/watch?v=2Vt7Ik8Ublw)
 <p align='center'>Click to watch "Scrum in under 5 minutes"</p>
 
@@ -83,7 +83,7 @@ MeisterTask is a simple, beautiful task management tool for agile teams. The web
 - **Nutcache**
 Nutcache helps you manage and track all aspects of your project using a sophisticated toolbox of color-coded schedules, task organization queues, and data reporting. You can also use their Gantt chart to visually plan and organize your tasks and then switch to a Scrum board view.
 
-## Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
+## Skill Self-Assessment
 **Self-Assessment: 6/10**  
 I am a computer science student, did not practice this software management skill before. Now, I read some articles about agile development to gain some basic level knowledge of Scrum meetings, and use this skill in the academic team project. However, I didn't face any real-world experience yet.  
   

@@ -75,7 +75,7 @@ The industry has a plethora of roles and openings that explicitly require a stro
 * Web API Developer
 * Full-Stack Software Engineer
 
-## Work Related to Skill (Related Activities and Artifacts)
+## Work Related to Skill
 
 RESTful API design and programming have several activities spanning a few minutes of time to a few months for teams that are actively involved in the production of these APIs. 
 
@@ -314,7 +314,7 @@ Most importantly, industry provides a hands-on approach to the cultivation of th
 
   When using PHP, say with the [_Symfony_ framework](https://symfony.com), [_PsySH_](https://psysh.org) is often used.
 
-## Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
+## Skill Self-Assessment
 
 Self-assigned Score - **8/10**
 

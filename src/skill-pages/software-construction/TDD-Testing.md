@@ -73,7 +73,7 @@ Subject|Implementation Code|Software Construction
 	- They will think exactly what will be the edge of features.
 	- At last, he/she will do correct test cases and refactor part to complete their role.
 
-## Work Related to Skill (Related Activities and Artifacts)
+## Work Related to Skill
 
 - Write failing test code which failed due to the mismatch of the code with the expected test behavior. (RED box in figure 1)
 
@@ -87,7 +87,7 @@ Subject|Implementation Code|Software Construction
 
 					Figure 1. TDD Life Cycle
 
-## Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
+## Real-World Example/Scenario of Skill
 
 - Example 1 –
 	- Video related scenario and unit testing for customer log in.
@@ -131,7 +131,7 @@ Subject|Implementation Code|Software Construction
 	- Furthermore, it is merged with SharpDevelop.
 	- NuGet can also be used from the command line and automated with scripts.
 
-## Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
+## Skill Self-Assessment
 
 - 6
 - I read some articles based on TDD to gain some level of basic as well as intermediate knowledge.

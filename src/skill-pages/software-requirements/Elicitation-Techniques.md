@@ -48,16 +48,17 @@ Key aspects of quality for the customer include:
 -   Good after sales service
 -   Value for money"
 
-## Rationale for Skill-
+## Rationale for Skill
 
 This skill was chosen because it is the base to start with any project. Selecting right set of elicitation techniques is an important and major task which depends on the set of stakeholders of the project, there availability and location.
 
 Each technique has its own importance and use, which makes it hards to select the correct set of techiques to perform requirements elicitation.
 
-## Roles for Skill-
+## Roles for Skill
+
 Business Analyst
 
-## Work Related to Skill (Related Activities and Artifacts)-
+## Work Related to Skill
 
 There are various techniques to perform elicitation-
 
@@ -80,16 +81,16 @@ There are various techniques to perform elicitation-
 -   **Survey/questionnaire –** "While they preclude the opportunity for in-person, ad hoc conversations, surveys are useful for quickly gathering data from a large group of participants. Because free online survey software is readily available, surveys are an inexpensive way to gather objective input from customers or potential end users. As with selecting stakeholders, a successful survey or questionnaire must have well-chosen participants. As one researcher notes, questionnaires “can be useful when the population is large enough, and the issues addressed are clear enough to all concerned.” Surveys can be structured to offer a series of finite choices for feedback, or they can offer open-ended input, depending on the needs of the project at hand. Open-ended surveys are useful for a broader discovery of business needs; however, the larger the number of participants in open-ended surveys, the more prohibitive they are to analyze. Survey wording must be unambiguous and precise. It is good practice for an analyst to politely request that survey participants respond by a reasonable deadline and that they keep any proprietary business information contained within the survey confidential."
 
 
-## Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)-
+## Real-World Example/Scenario of Skill
 
 It describes the survery of using various techniques which proved to be benificial over other techniques.
 **[https://www.diva-portal.org/smash/get/diva2:1117829/FULLTEXT01.pdf](https://www.diva-portal.org/smash/get/diva2:1117829/FULLTEXT01.pdf)**
 
-## Role of Academia or Industry in Cultivating the Skill-
+## Role of Academia or Industry in Cultivating the Skill
 Software Industry
 Real Estate
 
-## Tools Supporting the Skill-
+## Tools Supporting the Skill
 
 -   Domain Ontology
     
@@ -109,9 +110,9 @@ Real Estate
     
 -   Optimal Trace
 
-## Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)-
+## Skill Self-Assessment
 7
-## References-
+## References
 
 
 -   **[https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/1427/An-Overview-of-Requirements-Elicitation.aspx](https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/1427/An-Overview-of-Requirements-Elicitation.aspx)**

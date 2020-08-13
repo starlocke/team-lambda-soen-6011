@@ -43,7 +43,7 @@ Also, what is returned from API is relative simple, unlike web pages which conta
 * Software test engineer
 * Software developer
 
-## Work Related to Skill (Related Activities and Artifacts)
+## Work Related to Skill
 
 - Understand requirements, review api definition and many other details
 - Decide testing strategy, there might be performance and security requirements as well. Design testing use cases according to these requirements
@@ -55,7 +55,7 @@ Also, what is returned from API is relative simple, unlike web pages which conta
 - Integrate automated api testing into build process
 - If api definitions have changes, update test cases accordingly
 
-## Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
+## Real-World Example/Scenario of Skill
 
 - Example 1
   - You go to a restaurant you sit at your table and you choose that you need ABC. You will have your waiter coming up and taking a note of what you want. You tell him that you want ABC. So, you are requesting ABC, the waiter responds back with ABC he gets in the kitchen and serves you the food. In this case, who is your interface in between you and the kitchen is your waiter. It’s his responsibility to carry the request from you to the kitchen, make sure it’s getting done, and you know once it is ready he gets back to you as a response.(Introduction to API Testing with Real-life Examples)
@@ -99,7 +99,7 @@ Also, what is returned from API is relative simple, unlike web pages which conta
 
 (Top 5 free API testing tools (New & updated tools))
 
-## Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
+## Skill Self-Assessment
 
 7.
 

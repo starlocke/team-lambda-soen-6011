@@ -404,7 +404,7 @@ attribution of responsibilities to job titles. These include roles like:
 - Software Architect
 - System Administrator
 
-## Work Related to Skill (Related Activities and Artifacts)
+## Work Related to Skill
 
 In the course of executing the automation of software configuration management
 pipelines, a large variety of supporting work and skills tend to become necessary.
@@ -461,7 +461,7 @@ SCM automation, with brief additional insights.
   - The whole point of automating SCM is to get a hold on managing software
     configuration.
 
-## Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)
+## Real-World Example/Scenario of Skill
 
 "Integrated devops toolchain for continuous integration/continuous delivery with Jenkins"
 is a representative example of a small-scale demonstrative of the central ideas
@@ -623,7 +623,7 @@ some samples of additional, typical concerns:
 In short, if it's something worthwhile automating as part of software configuration
 management, it will become a cross-functional utility to plug into the project.
 
-## Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
+## Skill Self-Assessment
 
 Whereas the spectrum can be partitioned as follows, based on the [Dreyfus Model
 of Skill Acquisition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition):
