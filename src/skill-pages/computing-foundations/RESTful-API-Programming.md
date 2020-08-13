@@ -63,6 +63,8 @@ Despite its simplicity in definition, this RESTful architectural style that cons
 
 ![growth of public APIs over time](https://sestopia.s3.amazonaws.com/public_api_growth.png)
 
+**Growth in the number of public APIs between 2005 and 2016** [[4]](https://blog.readme.com/the-history-of-rest-apis/) 
+
 As shown by the graph, the number of REST APIs that organizations have opened up for public use has grown quite sharply since 2011. For instance, the Spotify API which is now open for public consumption can access Spotify user data like playlists and other information and as a result, has paved the way for more innovative applications to be developed by third-party developers.
 
 Evidently, the skill of both RESTful API programming and design has evolved to become an important part of any software engineer's skill-set, given the number of enterprises using decomposed REST APIs to provide access to their data resources both to clients as well as to other services and APIs within their organizations.
