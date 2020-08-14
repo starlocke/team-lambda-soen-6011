@@ -3,7 +3,7 @@ slug: "/skills/software-configuration-management/automating-SCM-pipelines"
 title: 'Automating Software Configuration Management (SCM) Pipelines'
 author: 'Victor Yap'
 categories: ["software-configuration-management"]
-date: '2020-07-26'
+date: '2020-08-13'
 ---
 
 Automating [Software Configuration Management](https://en.wikipedia.org/wiki/Software_configuration_management) (SCM) [Pipelines](https://en.wikipedia.org/wiki/Pipeline_(software)).
