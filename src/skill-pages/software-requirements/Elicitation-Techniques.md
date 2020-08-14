@@ -244,6 +244,7 @@ There are lots of industries which requires requirement elicitation, thus, havin
 
 ## Skill Self-Assessment
 8
+
 I have practiced various elicitation techniques during this course project and has taken another course of SRS in which this skill helped me in handling both projects and to create related artifacts in well organized manner.
 
 ## References
