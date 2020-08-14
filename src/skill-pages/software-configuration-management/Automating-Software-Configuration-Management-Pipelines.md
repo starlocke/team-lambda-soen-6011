@@ -3,7 +3,7 @@ slug: "/skills/software-configuration-management/automating-SCM-pipelines"
 title: 'Automating Software Configuration Management (SCM) Pipelines'
 author: 'Victor Yap'
 categories: ["software-configuration-management"]
-date: '2020-07-26'
+date: '2020-08-13'
 ---
 
 Automating [Software Configuration Management](https://en.wikipedia.org/wiki/Software_configuration_management) (SCM) [Pipelines](https://en.wikipedia.org/wiki/Pipeline_(software)).
@@ -666,4 +666,39 @@ and keeping engaged with various professional groups, too.
 
 ## References
 
-All references are in-line as hyperlinks, throughout this article.
+All references were direct hyperlinks within the text of this article. They are repeated and elaborated-upon here for convenience.
+
+1. Wikipedia Contributors. 2020. "Software Configuration Management". [online] Available at: <https://en.wikipedia.org/wiki/Software_configuration_management> [Accessed: 13 August 2020]
+1. Wikipedia Contributors. 2020. "Pipelines (software)". [online] Available at: <https://en.wikipedia.org/wiki/Pipeline_(software)> [Accessed: 13 August 2020]
+1. IEEE. 2012. "Configuration Management in Systems and Software Engineering". [online] Available at: <https://ieeexplore.ieee.org/servlet/opac?punumber=6170933> [Accessed: 13 August 2020]
+1. Marco Platania. 2018. "Clock Synchronization". [online] Available at: <http://www.cnds.jhu.edu/~platania/index_files/clock_sync.pdf> [Accessed: 13 August 2020]
+1. IEEE. 2014. "Guide to the Software Engineering Body of Knowledge (SWEBOK Guide)". [online] Available at: <https://www.computer.org/education/bodies-of-knowledge/software-engineering> [Accessed: 13 August 2020]
+1. Microsoft. 2020. "Microsoft Certified: DevOps Engineer Expert". [online] Available at: <https://docs.microsoft.com/en-us/learn/certifications/devops-engineer> [Accessed: 13 August 2020]
+1. IBM. 2020. "What is automation?". [online] Available at: <https://www.ibm.com/topics/automation> [Accessed: 13 August 2020]
+1. Wikipedia Contributors. 2020. "Industrial Revolution". [online] Available at: <https://en.wikipedia.org/wiki/Industrial_Revolution> [Accessed: 13 August 2020]
+1. Wikipedia Contributors. 2020. "Fourth Industrial Revolution". [online] Available at: <https://en.wikipedia.org/wiki/Fourth_Industrial_Revolution> [Accessed: 13 August 2020]
+1. Atlassian. 2020. "What is a kanban board?". [online] Available at: <https://www.atlassian.com/agile/kanban/boards> [Accessed: 13 August 2020]
+1. `git-scm.com` Contributors. 2020. "Git". [online] Available at: <https://git-scm.com/> [Accessed: 13 August 2020]
+1. Mercurial community. 2020. "Mercurial". [online] Available at: <https://www.mercurial-scm.org/> [Accessed: 13 August 2020]
+1. Perforce Software, Inc. 2020. "Perforce". [online] Available at: <https://www.perforce.com/> [Accessed: 13 August 2020]
+1. The Apache Software Foundation. 2020. "Subversion (SVN)". [online] Available at: <http://subversion.apache.org/> [Accessed: 13 August 2020]
+1. Jenkins Contributors. 2020. "Jenkins". [online] Available at: <https://www.jenkins.io/> [Accessed: 13 August 2020]
+1. TRAVIS CI, GMBH. 2020. "TravisCI". [online] Available at: <https://travis-ci.com/> [Accessed: 13 August 2020]
+1. GitLab Contributors. 2020. "GitLab Continuous Integration (CI) & Continuous Delivery (CD)". [online] Available at: <https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/> [Accessed: 13 August 2020]
+1. Wikipedia Contributors. 2020. "Disaster Recovery". [online] Available at: <https://en.wikipedia.org/wiki/Disaster_recovery> [Accessed: 13 August 2020]
+1. Wikipedia Contributors. 2020. "Software testing". [online] Available at: <https://en.wikipedia.org/wiki/Software_testing> [Accessed: 13 August 2020]
+1. Wikipedia Contributors. 2020. "Comparison Of Project Management Software". [online] Available at: <https://en.wikipedia.org/wiki/Comparison_of_project_management_software> [Accessed: 13 August 2020]
+1. Wikipedia Contributors. 2020. "Technical Communication Tools". [online] Available at: <https://en.wikipedia.org/wiki/Category:Technical_communication_tools> [Accessed: 13 August 2020]
+1. Wikipedia Contributors. 2020. "Translation". [online] Available at: <https://en.wikipedia.org/wiki/Translation> [Accessed: 13 August 2020]
+1. Wikipedia Contributors. 2020. "System Monitor". [online] Available at: <https://en.wikipedia.org/wiki/System_monitor#List_of_software_monitors> [Accessed: 13 August 2020]
+1. Wikipedia Contributors. 2020. "Alerting System". [online] Available at: <https://en.wikipedia.org/wiki/Alerting_system> [Accessed: 13 August 2020]
+1. Wikipedia Contributors. 2020. "Data Mining". [online] Available at: <https://en.wikipedia.org/wiki/Data_mining#Software> [Accessed: 13 August 2020]
+1. Wikipedia Contributors. 2020. "Business Intelligence Software". [online] Available at: <https://en.wikipedia.org/wiki/Business_intelligence_software> [Accessed: 13 August 2020]
+1. Wikipedia Contributors. 2020. "Archiving Science". [online] Available at: <https://en.wikipedia.org/wiki/Archival_science> [Accessed: 13 August 2020]
+1. Wikipedia Contributors. 2020. "Application-Release Automation". [online] Available at: <https://en.wikipedia.org/wiki/Application-release_automation> [Accessed: 13 August 2020]
+1. Wikipedia Contributors. 2020. "Marketing Automation". [online] Available at: <https://en.wikipedia.org/wiki/Marketing_automation> [Accessed: 13 August 2020]
+1. Wikipedia Contributors. 2020. "E-Commerce". [online] Available at: <https://en.wikipedia.org/wiki/E-commerce> [Accessed: 13 August 2020]
+1. Wikipedia Contributors. 2020. "Inventory Management Software". [online] Available at: <https://en.wikipedia.org/wiki/Inventory_management_software> [Accessed: 13 August 2020]
+1. Andy Hunt. 2008. "Pragmatic Thinking and Learning: Refactor Your Wetware". [online] Available at: <https://pragprog.com/titles/ahptl/> [Accessed: 13 August 2020]
+1. Francoise Detienne. 2002. "Software Design – Cognitive Aspects". [online] Available at: <https://www.springer.com/gp/book/9781852332532> [Accessed: 13 August 2020]
+1. Otakuthon Cultural Society. 2020. "Otakuthon". [online] Available at: <https://www.otakuthon.com/> [Accessed: 13 August 2020]
