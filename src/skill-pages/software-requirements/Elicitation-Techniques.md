@@ -62,7 +62,7 @@ But, there can be others which might be responsible for writing the requirement 
 - Software developer along with the team
 
 
-## Work Related to Skill (Related Activities and Artifacts)
+## Work Related to Skill
 
 There are various techniques to perform elicitation-
 
@@ -160,7 +160,7 @@ It can be of two types-
     - Personal bias of the observer
     - Expensive
     
--   **Prototyping (storyboarding, navigation flow, paper prototyping, screen flows)** 
+-   **Prototyping** 
 "Prototyping is especially valuable for stakeholders such as business owners and end users who may not understand all of the technical aspects of requirements, but will better relate to a visual representation of the end product. To quote BABOK, “Stakeholders often find prototyping to be a concrete means of identifying, describing and validating their interface needs.” The prototyping process is normally iterative, improving as more input and evaluation are gleaned from stakeholders. Prototyping may be an interactive screen (normally consisting of hypertext only with no real data behind it), a mock-up (such as a PowerPoint), a navigation flow (such as a Visio diagram), or a storyboard. Simple, throwaway prototypes (such as pencil sketches) may be done in the initial stages of discovery, and more detailed, interactive prototypes may be done once business requirements have been identified. At the latter, more detailed prototype stage,prototype features must fulfill previously identified business needs as outlined in the requirements."
 
     **Advantages of Prototyping**
@@ -212,7 +212,7 @@ Taking care of enormous classes for hands-on training might be troublesome.
 - Survey fatigue
 
 At last, business analysis is utilized to perceive and articulate the requirement for change in how organizations work, and to advance that alteration. As business analysts, we recognize and characterize the arrangements that will augment the worth conveyed by an organization to its stakeholders.
-## Real-World Example/Scenario of Skill(Text, Graphic, Audio, Video)
+## Real-World Example/Scenario of Skill
 
 It describes the survery of using various techniques which proved to be benificial over other techniques.
 **[https://www.diva-portal.org/smash/get/diva2:1117829/FULLTEXT01.pdf](https://www.diva-portal.org/smash/get/diva2:1117829/FULLTEXT01.pdf)**
@@ -242,8 +242,10 @@ There are lots of industries which requires requirement elicitation, thus, havin
     
 -   Optimal Trace
 
-## Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
+## Skill Self-Assessment
 8
+I have practiced various elicitation techniques during this course project and has taken another course of SRS in which this skill helped me in handling both projects and to create related artifacts in well organized manner.
+
 ## References
 
 
