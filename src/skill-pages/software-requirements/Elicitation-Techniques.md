@@ -212,17 +212,17 @@ Taking care of enormous classes for hands-on training might be troublesome.
 - Survey fatigue
 
 At last, business analysis is utilized to perceive and articulate the requirement for change in how organizations work, and to advance that alteration. As business analysts, we recognize and characterize the arrangements that will augment the worth conveyed by an organization to its stakeholders.
-## Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video)-
+## Real-World Example/Scenario of Skill(Text, Graphic, Audio, Video)
 
 It describes the survery of using various techniques which proved to be benificial over other techniques.
 **[https://www.diva-portal.org/smash/get/diva2:1117829/FULLTEXT01.pdf](https://www.diva-portal.org/smash/get/diva2:1117829/FULLTEXT01.pdf)**
 
-## Role of Academia or Industry in Cultivating the Skill-
+## Role of Academia or Industry in Cultivating the Skill
 There are lots of industries which requires requirement elicitation, thus, having a need for such techniques. Few industries are:
 - Software Industry
 - Medical
 
-## Tools Supporting the Skill-
+## Tools Supporting the Skill
 
 -   Domain Ontology
     
@@ -242,9 +242,9 @@ There are lots of industries which requires requirement elicitation, thus, havin
     
 -   Optimal Trace
 
-## Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)-
+## Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score)
 8
-## References-
+## References
 
 
 -   **[https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/1427/An-Overview-of-Requirements-Elicitation.aspx](https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/1427/An-Overview-of-Requirements-Elicitation.aspx)**
