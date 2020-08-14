@@ -77,7 +77,7 @@ There are various techniques to perform elicitation-
   - We create cooperation and teamwork
   - It builds self-esteem
  
-	  **Disadvantages of Brainstorming**
+  **Disadvantages of Brainstorming**
   - Some irrelevant ideas may also be taken for evaluation
   - The might be idea overlap
   - Emotional or mental blocks might be possible lie fear of criticism
@@ -200,6 +200,7 @@ Taking care of enormous classes for hands-on training might be troublesome.
 - Validity & Reliability
 - Low pressure
 - Standardized
+
 **Disadvantages of survey or questionnaire**
 - Dishonest answers
 - Skipped questions
@@ -244,6 +245,7 @@ There are lots of industries which requires requirement elicitation, thus, havin
 
 ## Skill Self-Assessment
 8
+
 I have practiced various elicitation techniques during this course project and has taken another course of SRS in which this skill helped me in handling both projects and to create related artifacts in well organized manner.
 
 ## References
